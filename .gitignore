@@ -1,0 +1,11 @@
+.snakemake
+output/
+logs/
+*job
+
+.Rhistory
+.Rapp.history
+.RData
+.Rproj.user/
+.Rproj
+data/sptrees
