@@ -1,0 +1,543 @@
+PhyId	Name	Seed species	Pubmed	Trees	Algs	Orthologs	Description	Created
+3	Yeast phylome (P60)	Saccharomyces cerevisiae					S. cerevisiae phylome made from 60 completely sequenced fungal species	2015-02-11
+4	Yeast phylome (P12b)	Saccharomyces cerevisiae					S. cerevisiae phylome made from 12 completely sequenced fungal species, taken from different taxonomic groups	2015-02-11
+5	Yeast phylome (P21)	Saccharomyces cerevisiae					S. cerevisiae phylome made from 21 completely sequenced fungal species that belong to the Saccharomycotina subphylum	2015-02-11
+6	C. glabrata phylome (1)	Candida glabrata					Phylome made from 60 completely sequenced fungal species using the Candida glabrata proteome as seed.	2008-03-26
+7	Yeast phylome (P12a)	Saccharomyces cerevisiae					S. cerevisiae phylome made from 12 completely sequenced fungal species that belong to the Saccharomyces genus	2015-02-11
+8	P. vulgaris BAT93 phylome (1)	Phaseolus vulgaris					Bean phylome in the context of 13 plant genomes	2015-12-14
+9	P. vulgaris BAT93 phylome (2)	Phaseolus vulgaris					Mesoamerican Bean (BAT93) phylome in the context of 14 plant genomes including another andean bean accession (G19833)	2015-12-14
+10	P. vulgaris G19833 phylome (1)	Phaseolus vulgaris					Andean Bean (G19833) phylome in the context of 14 plant genomes including another mesoamerican bean accession (G19833)	2015-12-14
+11	P. Vulgaris phylome (3)	Phaseolus vulgaris						2015-10-27
+12	P. vulgaris phylome (4)	Phaseolus vulgaris						2015-10-27
+13	PeroxisomeDB partial Human phylome	Homo sapiens						2015-02-11
+14	PeroxisomeDB partial Yeast phylome	Saccharomyces cerevisiae						2015-02-11
+15	A. nigricans phylome	Ascodesmis nigricans					Phylome reconstructed for the Ascodesmis nigricans genome project	2016-04-21
+16	Candida jiufengensis	Candida jiufengensis					C. jiufengesis phylome	2018-05-21
+17	X.tropicalis amphibian phylome	Xenopus tropicalis					phylome for Echinobase/Xenbase collaboration	2021-02-09
+18	S. maximus phylome	Scophthalmus maximus					Phylome reconstructed for the Scophthalmus maximus genome project	2016-04-07
+22	S. mansoni phylome (1)	Schistosoma mansoni					Phylome of the trematode Schistosoma mansoni	2015-02-11
+23	Coffee phylome	Coffea canephora					Coffea canephora phylome reconstructed for the olive project	2017-12-20
+24	K. lactis phylome (1)	Kluyveromyces lactis					K. lactis phylome in the context of 60 sequenced fungal genomes	2015-02-11
+25	A. melifera phylome (1)	Apis mellifera					A. mellifera in the context of 8 insect species.	2015-02-11
+26	T. castaneum phylome (1)	Tribolium castaneum					T. castaneum in the context of 8 insect species.	2015-02-11
+27	N. vitripennis phylome (1)	Nasonia vitripennis					N. vitripenis in the context of 8 insect species.	2015-02-11
+28	A. thaliana phylome (1)	Arabidopsis thaliana					Arabidopsis thaliana phylome in context of 20 plant species and 5 outgroup species.	2015-02-11
+29	N. tabacum phylome	Nicotiana tabacum					Nicotiana tabacum reconstructed for the olive genome project	2017-12-20
+30	N. punctiforme phylome (1)	Nostoc punctiforme (strain ATCC 29133 / PCC 73102)						2015-02-11
+31	N. punctiforme phylome (2)	Nostoc punctiforme (strain ATCC 29133 / PCC 73102)						2015-02-11
+32	G. violaceus phylome (1)	Gloeobacter violaceus PCC 7421						2015-02-11
+33	P. marinus phylome (strain NATL2A)	Prochlorococcus marinus (strain NATL2A)						2015-02-11
+34	Synechococcus sp. WH7805 phylome (1)	Synechococcus sp. (strain WH7805)						2015-02-11
+40	E. coli phylome (1)	Escherichia coli K-12					E. Coli phylome done in the context of 30 prokaryotic model species	2015-02-11
+41	B. subtilis phylome (1)	Bacillus subtilis					B. Subtilis phylome done in the context of 30 prokaryotic model species	2015-02-11
+42	M. jannaschii phylome (1)	Methanocaldococcus jannaschii DSM 2661					M. Jannaschii phylome done in the context of 30 prokaryotic model species	2015-02-11
+43	S. oryzae phylome	Sitophilus oryzae					Sitophilus oryzae phylome reconstructed for its genome project	2020-02-11
+44	Pelobates cultripes phylome	Pelobates cultripes					Pelobates cultripes phylome with QF18 version of X. tropicalis	2021-02-24
+45	D. simulans phylome (1)	Drosophila simulans					D. simulans meta-phylome in the context of 14 drosophila species	2015-02-11
+46	D. erecta phylome (1)	Drosophila erecta					D. erecta meta-phylome in the context of 14 drosophila species	2015-02-11
+47	D. pseudoobscura phylome (1)	Drosophila pseudoobscura pseudoobscura					D. pseudoobscura meta-phylome in the context of 14 drosophila species	2015-02-11
+48	D. virilis phylome (1)	Drosophila virilis					D. virilis meta-phylome in the context of 14 drosophila species	2015-02-11
+49	D. grimshawi phylome (1)	Drosophila grimshawi					D. grimshawi meta-phylome in the context of 14 drosophila species	2015-02-11
+50	D. sechellia phylome (1)	Drosophila sechellia					D. sechellia meta-phylome in the context of 14 drosophila species	2015-02-11
+51	D. willistoni phylome (1)	Drosophila willistoni					D. willistoni meta-phylome in the context of 14 drosophila species	2015-02-11
+52	D. ananassae phylome (1)	Drosophila ananassae					D. ananassae meta-phylome in the context of 14 drosophila species	2015-02-11
+53	D. yakuba phylome (1)	Drosophila yakuba					D. yakuba meta-phylome in the context of 14 drosophila species	2015-02-11
+54	D. persimilis phylome (1)	Drosophila persimilis					D. persimilis meta-phylome in the context of 14 drosophila species	2015-02-11
+55	D. mojavensis phylome (1)	Drosophila mojavensis					D. mojavensis meta-phylome in the context of 14 drosophila species	2015-02-11
+56	Basidiomycota mitochondrial phylome (1)	Moniliophthora perniciosa FA553						2015-02-11
+57	Pichia kudriavzevii CBS573 phylome	Pichia kudriavzevii						2015-07-23
+62	SARS-CoV2	Severe acute respiratory syndrome coronavirus 2					Phylome reconstructed for the virus causing Severe acute respiratory syndrome (COVID-19)	2020-04-21
+64	F. oxysporum phylome (1)	Fusarium oxysporum					Fusarium oxysporum phylome reconstructed within Pezizomycotina species	2015-02-11
+68	MERS-CoV	Middle East respiratory syndrome-related coronavirus					Phylome reconstructed for the virus causing Middle East respiratory syndrome	2020-04-21
+69	SARS-CoV	Severe acute respiratory syndrome-related coronavirus					Phylome reconstructed for the virus causing Severe acute respiratory syndrome	2020-04-21
+75	Human phylome (2)	Homo sapiens					A new human phylome release using old phylogenetic pipeline with updated proteomes	2015-02-11
+76	Human phylome (3)	Homo sapiens					A new human phylome release using current phylogenetic pipeline with updated proteomes	2015-02-11
+78	N. delphensis (1)	Nakaseomyces delphensis					Nakaseomyces delphensis phylome reconstructed for the genome project of Nakaseomyces	2015-02-11
+79	C. castellii phylome (1)	Candida castellii					Candida castellii phylome reconstructed for the genome project of Nakaseomyces	2015-02-11
+80	C. bracarensis phylome (1)	Candida bracarensis					Candida bracarensis phylome reconstructed for the genome project of Nakaseomyces	2015-02-11
+81	N. bacillisporus phylome (1)	Nakaseomyces bacillisporus					Nakaseomyces bacillisporus phylome reconstructed for the genome project of Nakaseomyces	2015-02-11
+82	C. nivariensis phylome (1)	Candida nivariensis					Candida nivariensis phylome reconstructed for the genome project of Nakaseomyces	2015-02-11
+83	C. glabrata phylome Nakaseomyces (1)	Candida glabrata					Candida glabrata phylome reconstructed for the genome project of Nakaseomyces	2015-02-11
+84	C. melo phylome	Cucumis melo					The cucumis melo phylome in the context of 23 plants and 5 out-group species.	2015-02-11
+86	Basidiomycete mitochondrial phylome	Moniliophthora perniciosa FA553					Phylome in the context of 12 basidiomycete and one ascomycete mitochondrial genomes	2015-02-11
+87	K. capsulata phylome (1)	Kuraishia capsulata					Kuraishia capsulata phylome in the context of 15 other ascomycotina fungi	2015-02-11
+88	Y. lipolytica phylome (1)	Yarrowia lipolytica					Yarrowia lipolytica phylome reconstructed for the K. capsulata genome project	2015-02-11
+89	O. angusta phylome (1)	Ogataea angusta					Ogataea angusta phylome reconstructed for the K. capsulata genome project	2015-02-11
+90	D. melanogaster (1)	Drosophila melanogaster					Drosophila melanogaster phylome in the context of 29 newly annotated or re-annotated fly species. Mosquito is being used as out-group	2013-11-11
+91	D. willistoni (2)	Drosophila willistoni					Drosophila willistoni phylome in the context of 29 newly annotated or re-annotated fly species. Mosquito is being used as out-group	2013-11-11
+92	D. saltans (1)	Drosophila saltans					Drosophila saltans phylome in the context of 29 newly annotated or re-annotated fly species. Mosquito is being used as out-group	2013-11-11
+93	D. mojavensis (2)	Drosophila mojavensis					Drosophila mojavensis phylome in the context of 29 newly annotated or re-annotated fly species. Mosquito is being used as out-group	2013-11-11
+95	Red algae phylome (1 - C. merolae)	Cyanidioschyzon merolae					Cyanidioschyzon merolae phylome in the context of 22 plants, including another red algae, and 5 out-groups species	2015-02-11
+96	Red algae phylome (1 - C. crispus)	Chondrus crispus					Chondrus crispus (irish moss) phylome in the context of 22 plants, including another red algae, and 5 out-groups species	2015-02-11
+98	Primates Metaphylome (human)	Homo sapiens						2015-02-11
+100	C. owczarzaki phylome (1)	Capsaspora owczarzaki ATCC 30864					Capsaspora owczarzaki phylome in the context of 16 additional eukaryotic species	2013-11-06
+101	C. owczarzaki phylome (2)	Capsaspora owczarzaki ATCC 30864					Capsaspora owczarzaki phylome in the context of 17 additional eukaryotic species, including 1 species with RNASeq-data sister to the seed	2013-11-06
+102	H. sapiens	Homo sapiens					Context of Capsspora owczarzaki studies	2014-10-03
+103	S. cerevisiae	Saccharomyces cerevisiae					Context of Capsspora owczarzaki studies	2014-10-03
+104	M. musculus phylome	Mus musculus					M. musculus phylome in the context of Capsaspora owczarzaki evolutionary studies	2015-01-19
+105	T. adhaerens phylome	Trichoplax adhaerens					T. adhaerens phylome in the context of Capsaspora owczarzaki evolutionary studies	2015-01-19
+109	Utricularia gibba phylome	Utricularia gibba						2015-04-16
+120	C. parapsilosis CBS6318 (2)	Candida parapsilosis CBS6318					CBS6318 phylome in context of 24 Saccharomycotina species.	2011-09-05
+121	C. parapsilosis CBS1954 (2)	Candida parapsilosis CBS1954					CBS1954 phylome in context of 28 sequenced Saccharomycotina.	2011-09-05
+122	C. orthopsilosis MCO456 phylome (2)	Candida orthopsilosis MCO456					MCO456 phylome in context of 28 sequenced Saccharomycotina.	2011-09-05
+123	C. metapsilosis PL429 phylome (2)	Candida metapsilosis PL429					PL429 phylome in context of 28 sequenced Saccharomycotina.	2011-09-05
+125	E. festucae phylome	Epichloe festucae					Phylome reconstructed for the analysis of Loline	2015-10-09
+126	C. purpurea phylome	Claviceps purpurea 20.1					C. purourea phylome reconstructed for the analysis of ergot alkaloids	2015-10-09
+134	Polistes canadensis phylome (wasp project)	Polistes canadensis					Polistes canadensis phylome reconstructed for the wasp-ant project	2013-12-19
+135	Dinoponera quadriceps phylome (wasp project)	Dinoponera quadriceps					Dinoponera quadriceps phylome reconstructed for the wasp-ant project	2013-12-19
+136	Apis mellifera phylome (wasp project)	Apis mellifera					Apis mellifera phylome reconstructed for the wasp-ant project	2013-12-19
+137	Acyrthosiphon pisum v2	Acyrthosiphon pisum					Second version of A.pisum phylome based on the new assembly and excluding transposons.	2015-02-11
+138	Dekkera bruxellensis phylome (v1)	Dekkera bruxellensis					Phylome of Dekkera bruxellensis in the context of 22 fungal species	2015-02-11
+139	Culex quinquefasciatus phylome (ARTHROPODA_CYC)	Culex quinquefasciatus						2015-02-11
+140	Aedes aegypti phylome (ARTHROPODA_CYC)	Aedes aegypti						2015-02-11
+141	Anopheles gambiae phylome (ARTHROPODA_CYC)	Anopheles gambiae						2015-02-11
+142	Ixodes scapularis phylome (ARTHROPODA_CYC)	Ixodes scapularis						2015-02-11
+143	Pediculus humanus corporis phylome (ARTHROPODA_CYC)	Pediculus humanus corporis						2015-02-11
+144	Daphnia pulex phylome (ARTHROPODA_CYC)	Daphnia pulex						2015-02-11
+145	Apis mellifera phylome (ARTHROPODA_CYC)	Apis mellifera						2015-02-11
+146	Nasonia vitripennis phylome (ARTHROPODA_CYC)	Nasonia vitripennis						2015-02-11
+147	S. commersonii phylome (1)	Solanum commersonii					Solanum commersonii phylome - the wild potato - in the context of 12 viridiplantae species	2014-04-15
+150	Penicillium digitatum phylome	Penicillium digitatum					Phylome associated to the P. digitatum genome sequencing	2015-02-11
+152	Sugar Beet Phylome	Beta vulgaris					Beta vulgaris phylome in the context of 10 fully-sequenced plant genomes including representative from the most important taxonomic groups	2015-02-11
+153	Schistosoma mansoni phylome (2)	Schistosoma mansoni					Schistosoma mansoni phylome	2015-02-11
+154	Nitrosomonas europaea (v1)	Nitrosomonas europaea ATCC 19718					Nitrosomonas europaea phylome in the context of 20 bacterial genomes	2015-02-11
+155	Streptomyces coelicor A3 (v1)	Streptomyces coelicolor A3(2)					Streptomyces coelicor phylome in the context of 20 bacterial genomes	2015-02-11
+156	Staphylococcus aureus (v1)	Staphylococcus aureus (strain Mu50 / ATCC 700699)					Staphylococcus aureus phylome in the context of 20 bacterial genomes	2015-02-11
+157	Lactobacillus plantarum (v1)	Lactobacillus plantarum					Lactobacillus plantarum phylome in the context of 20 bacterial genomes	2015-02-11
+158	Listeria monocytogenes (v1)	Listeria monocytogenes EGD-e					Listeria monocytogenes phylome in the context of 20 bacterial genomes	2015-02-11
+159	Bifidobacterium longum (v1)	Bifidobacterium longum NCC2705					Bifidobacterium longum phylome in the context of 20 bacterial genomes	2015-02-11
+160	Pseudomonas aeruginoase (v1)	Pseudomonas aeruginosa PAO1					Pseudomonas aeruginosa phylome in the context of 20 bacterial genomes	2015-02-11
+161	Streptococcus mutans (v1)	Streptococcus mutans UA159					Streptococcus mutans phylome in the context of 20 bacterial genomes	2015-02-11
+162	Shewanella oneidensis (v1)	Shewanella oneidensis MR-1					Shewanella oneidensis phylome in the context of 20 bacterial genomes	2015-02-11
+163	Pseudomonas syringae (v1)	Pseudomonas syringae pv. tomato str. DC3000					Pseudomonas syringae phylome in the context of 20 bacterial genomes	2015-02-11
+164	Bacillus subtilis (v1)	Bacillus subtilis subsp. subtilis str. 168					Bacillus subtilis phylome in the context of 20 bacterial genomes	2015-02-11
+165	Bradyrhizobium japonicum (v1)	Bradyrhizobium japonicum USDA 110					Bradyrhizobium japonicum phylome in the context of 20 bacterial genomes	2015-02-11
+166	Rhodopseudomonas palustris (v1)	Rhodopseudomonas palustris CGA009					Rhodopseudomonas palustris phylome in the context of 20 bacterial genomes	2015-02-11
+167	Rhodobacter sphaeroides (v1)	Rhodobacter sphaeroides (strain ATCC 17023 / 2.4.1 / NCIB 8253 / DSM 158)					Rhodobacter sphaeroides phylome in the context of 20 bacterial genomes	2015-02-11
+168	Thermus thermophilus (v1)	Thermus thermophilus (strain HB8 / ATCC 27634 / DSM 579)					Thermus thermophilus phylome in the context of 20 bacterial genomes	2015-02-11
+169	Escherichia coli str. K-12 (v1)	Escherichia coli str. K-12 substr. MG1655					Escherichia coli phylome in the context of 20 bacterial genomes	2015-02-11
+170	Haemophilus influenzae (v1)	Haemophilus influenzae Rd KW20					Haemophilus influenzae phylome in the context of 20 bacterial genomes	2015-02-11
+171	Mycobacterium tuberculosis (v1)	Mycobacterium tuberculosis H37Rv					Mycobacterium tuberculosis phylome in the context of 20 bacterial genomes	2015-02-11
+172	Desulfovibrio vulgaris (v1)	Desulfovibrio vulgaris (strain Hildenborough / ATCC 29579 / NCIMB 8303)					Desulfovibrio vulgaris phylome in the context of 20 bacterial genomes	2015-02-11
+173	Salmonella enterica (v1)	Salmonella enterica subsp. enterica serovar Typhimurium str. LT2					Salmonella enterica phylome in the context of 20 bacterial genomes	2015-02-11
+174	Megaselia abdita phylome	Megaselia abdita					Phylome in the context of Basal dipteran transciptome project	2015-02-11
+177	Strigamia maritima phylome (1)	Strigamia maritima					Strigamia maritima phylome in the context of 17 additional metazoan species including representatives of the main arthropod lineages	2015-04-01
+178	Arxula adenivorans phylome (v1)	Blastobotrys adeninivorans					Arxula adenivorans phylome in the context of 17 other fungal genomes	2015-02-11
+179	Penicillium chrysogenum phylome	Penicillium chrysogenum					P. chrysogenum phylome in the context of 28 other Pezizomycotina species	2015-02-11
+180	Microbotryum violaceum species complex phylome	Microbotryum violaceum					Microbotryum violaceum species complex phylome in the context of 19 additional fungal genomes	2015-04-17
+182	Glossina morsitans phylome	Glossina morsitans morsitans						2012-05-11
+183	Clogmia albipunctata phylome	Clogmia albipunctata					Phylome in the context of Basal dipteran transciptome project	2015-02-11
+184	Episyrphus balteatus phylome	Episyrphus balteatus					Phylome in the context of Basal dipteran transciptome project	2015-02-11
+185	Lactobacillus plantarum (v2)	Lactobacillus plantarum					Lactobacillus plantarum phylome in the context of 30 bacterial phylomes	2015-02-11
+186	Bifidobacterium longum phylome (v2)	Bifidobacterium longum NCC2705					Bifidobacterium longum phylome in the context of 30 bacterial phylomes	2015-02-11
+187	Bacillus subtilis phylome (v2)	Bacillus subtilis subsp. subtilis str. 168					Bacillus subtilis phylome in the context of 30 bacterial phylomes	2015-02-11
+188	Bradyrhizobium japonicum phylome (v2)	Bradyrhizobium japonicum USDA 110					Bradyrhizobium japonicum phylome in the context of 30 bacterial phylomes	2015-02-11
+189	Rhodopseudomonas palustris phylome (v2)	Rhodopseudomonas palustris CGA009					Rhodopseudomonas palustris phylome in the context of 30 bacterial phylomes	2015-02-11
+190	Mycobacterium tuberculosis phylome (v2)	Mycobacterium tuberculosis H37Rv					Mycobacterium tuberculosis phylome in the context of 30 bacterial phylomes	2015-02-11
+191	D. melanogaster phylome (2)	Drosophila melanogaster					Phylome in the context of Basal dipteran transciptome project	2015-02-11
+196	Phylome of Daktulosphaira vitifoliae, the grape phylloxera, in the context of the insect tree of lif	Daktulosphaira vitifoliae					Phylome of Daktulosphaira vitifoliae, the grape phylloxera, in the context of the insect tree of life. Species included: Acyrtosiphon pisum, Myzus per...[More]	2018-02-19
+198	Myzus persicae phylome (2)	Myzus persicae G006					Myzus persicae phylome including two strains of M. persicae (G006 and Clone O) and other 20 insect species.	2017-03-28
+199	Myzus persicae phylome	Myzus persicae G006					Myzus persicae strain G006 phylome in the context of 21 insect species.	2017-03-28
+200	Crocodilian phylomes (1)	Alligator mississippiensis					Alligator mississippiensis phylome in the context of 3 crocodilian species, 5 birds species, 2 squamata species (A. carolinensis & P. bivittatus), 2 t...[More]	2015-02-11
+201	Crocodilian phylomes (2)	Crocodylus porosus					Crocodylus porosus phylome in the context of 3 crocodilian species, 5 birds species, 2 squamata species (A. carolinensis & P. bivittatus), 2 turtles s...[More]	2015-02-11
+202	Crocodilian phylomes (3)	Gavialis gangeticus					Gavialis gangeticus phylome in the context of 3 crocodilian species, 5 birds species, 2 squamata species (A. carolinensis & P. bivittatus), 2 turtles ...[More]	2015-02-11
+203	Pyronema confluens phylome	Pyronema omphalodes					Phylome for the sequencing project of Pyronema confluens	2015-02-11
+205	C. albicans phylome (1)	Candida albicans					C. albicans phylome in the context of 60 sequenced fungal genomes	2015-02-11
+206	Saccharomyces cerevisiae phylome (hybrid project)	Saccharomyces cerevisiae					Phylome reconstructed for the Yeast Hybrid Project	2012-08-23
+207	Candida glabrata phylome (hybrid project)	Candida glabrata					Phylome reconstructed for the Yeast Hybrid Project	2013-05-28
+208	Vanderwaltozyma polyspora phylome (hybrid project)	Vanderwaltozyma polyspora (strain ATCC 22028 / DSM 70294)					Phylome reconstructed for the Yeast Hybrid Project	2013-05-28
+209	Saccharomyces pastorianus phylome (hybrid project)	Saccharomyces pastorianus Weihenstephan 34/70					Phylome reconstructed for the Yeast Hybrid Project	2012-08-03
+210	S. cerevisiae x S. kudriavzevii hybrid phylome (hybrid project)	Saccharomyces cerevisiae x Saccharomyces kudriavzevii VIN7					Phylome reconstructed for the Yeast Hybrid Project	2013-10-28
+211	Hortaea werneckii phylome (hybrid project)	Hortaea werneckii					Phylome reconstructed for the Yeast Hybrid Project	2013-10-25
+215	O. europaea phylome	Olea europaea					Phylome of Olea europaea var europaea reconstructed during the olive genome project.	2018-01-29
+216	F. excelsior phylome	Fraxinus excelsior					Phylome of Fraxinus excelsior reconstructed during the olive genome project.	2018-01-29
+217	S. indicum phylome	Sesamum indicum					Phylome of Sesamum indicum reconstructed during the olive genome project.	2018-01-29
+218	M. guttatus phylome	Mimulus guttatus					Phylome of Mimulus guttatus reconstructed during the olive genome project	2018-01-29
+219	S. miltiorrhiza phylome	Salvia miltiorrhiza					Phylome of Salvia miltiorrhiza reconstructed during the olive genome project	2018-01-29
+220	U. gibba phylome	Utricularia gibba					Phylome of Utricularia gibba reconstructed during the olive genome project	2018-01-29
+221	O. europaea phylome	Olea europaea					Phylome of Olea europaea var europaea reconstructed during the olive genome project. Includes the genome of Olea europaea var sylvestris	2018-01-29
+222	O. europaea var sylvestris phylome	Olea europaea var. sylvestris					Phylome of Olea europaea var sylvestris reconstructed during the olive genome project.	2018-01-29
+223	H. annuus phylome	Helianthus annuus					Helianthus annuus phylome reconstructed for the olive genome project	2017-02-24
+224	S. lycopersicum phylome	Solanum lycopersicum					Phylome reconstructed for the Olive project	2017-02-24
+225	Birds phylome (1 - Gallus gallus)	Gallus gallus					Chicken (G. gallus) metaphylome in the context of a large-scale sequencing project of 48 avian species. 4 non-avian species were used as out-group	2015-02-11
+226	Birds phylome (1b - Gallus gallus)	Gallus gallus					Chicken (G. gallus) phylome, using AAs, in the context of a large-scale sequencing project of 48 avian species. 4 non-avian species were used as out-g...[More]	2015-02-11
+227	Birds phylome (2 - Haliaeetus leucocephalus)	Haliaeetus leucocephalus					H. leucocephalus metaphylome in the context of a large-scale sequencing project of 48 avian species. 4 non-avian species were used as out-group	2015-02-11
+228	Birds phylome (3 - Leptosomus discolor)	Leptosomus discolor					L. discolor metaphylome in the context of a large-scale sequencing project of 48 avian species. 4 non-avian species were used as out-group	2015-02-11
+229	Birds phylome (4 - Opisthocomus hoazin)	Opisthocomus hoazin					O. hoazin metaphylome in the context of a large-scale sequencing project of 48 avian species. 4 non-avian species were used as out-group	2015-02-11
+230	Birds phylome (5 - Phaethon lepturus)	Phaethon lepturus					P. lepturus metaphylome in the context of a large-scale sequencing project of 48 avian species. 4 non-avian species were used as out-group	2015-02-11
+231	Common bean phylome (1)	Phaseolus vulgaris						2013-09-19
+233	G. candidum phylome (1)	Geotrichum candidum					Phylome reconstructed within the sequencing project of G. candidum	2013-12-17
+234	Y. lipolytica phylome (2)	Yarrowia lipolytica					Y. lipolytica phylome reconstructed for the G. geotrichum genome project	2013-12-17
+235	D. hansenii phylome (1)	Debaryomyces hansenii					D. hansenii phylome reconstructed for the G. geotrichum genome project	2013-12-17
+236	S. cerevisiae phylome (9)	Saccharomyces cerevisiae					S. cerevisiae phylome reconstructed for the G. geotrichum genome project	2013-12-17
+243	Candida metapsilosis phylome (3)	Candida metapsilosis					C. metapsilosis phylome in context of 27 Saccharomyces	2014-07-21
+245	L. corymbifera phylome (1)	Lichtheimia corymbifera					Phylome reconstructed for the sequencing project of Lichtheimia corymbifera	2015-02-11
+247	L. erinacea phylome	Leucoraja erinacea					Phylome reconstructed for the genome project of Leucoraja erinacea	2020-09-10
+251	tobacco	Nicotiana tabacum					Parental species for N. tabacum	2018-11-19
+252	R. delemar (1)	Rhizopus oryzae					Phylome reconstructed for the sequencing project of Mucoromycotina	2013-06-17
+253	M. circinelloides (1)	Mucor circinelloides					Phylome reconstructed for the sequencing project of Mucoromycotina	2013-06-17
+254	P. blakesleeanus phylome (1)	Phycomyces blakesleeanus					Phylome reconstructed for the sequencing project of Mucoromycotina	2013-06-17
+255	M. alpina phylome (1)	Mortierella alpina ATCC 32222					Phylome reconstructed for the sequencing project of Mucoromycotina	2013-10-08
+256	L. corymbifera phylome (2)	Lichtheimia corymbifera					Phylome reconstructed for the sequencing project of Mucoromycotina	2013-10-08
+265	Leishmania braziliensis (Leishmania major metaphylome)	Leishmania braziliensis MHOM/BR/75/M2904					Leishmania braziliensis MHOM/BR/75/M2904 (Leishmania major metaphylome)	2013-08-23
+266	Leishmania infantum phylome (Leishmania major metaphylome)	Leishmania infantum JPCM5					Leishmania infantum JPCM5 phylome (Leishmania major metaphylome)	2013-08-27
+267	Leishmania tarentolae phylome	Leishmania tarentolae					Leishmania tarentolae phylome (Leishmania major metaphylome)	2013-08-28
+268	Leishmania mexicana phylome	Leishmania mexicana MHOM/GT/2001/U1103					Leishmania mexicana MHOM/GT/2001/U1103 (Leishmania major metaphylome)	2013-08-29
+269	Leishmania donovani phylome	Leishmania donovani BPK282A1					Leishmania donovani phylome (Leishmania major metaphylome)	2013-08-29
+270	Leishmania major phylome	Leishmania major strain Friedlin					Leishmania major phylome (Leishmania METAPHYLOME (6 Leishmania species + outgroup))	2013-08-19
+271	Drosophila virilis phylome (2) - IOP	Drosophila virilis					Insect NY University - Drosophila virilis in the context of 20 insects genomes	2020-04-17
+272	Musca domestica phylome (1) - IOP	Musca domestica					Insect NY University - Musca domestica in the context of 20 insects genomes	2020-04-17
+273	Tribolium castaneum phylome (2) - IOP	Tribolium castaneum					Insect NY University - Tribolium castaneum in the context of 20 insects genomes	2020-04-17
+274	Harpegnathos saltator phylome (1) - IOP	Harpegnathos saltator					Insect NY University - Harpegnathos saltator in the context of 20 insects genomes	2020-04-17
+275	Danior rerio phylome	Danio rerio					Phylome starting from D. rerio for the little skate genome project	2020-11-05
+277	Lynx pardinus phylome II	Lynx pardinus					Lynx pardinus phylome II (Lynx pardinus + 14 proteomes)	2013-10-24
+278	Lynx pardinus phylome (3)	Lynx pardinus					Lynx pardinus phylome in the context of other 16 vertebrate species. We will use this phylome as proxy to compute and compare dN/dS ratios for primate...[More]	2014-11-17
+279	P. expansum phylome (1)	Penicillium expansum					Penicillium expansum phylome reconstructed during genome annotation, reconstructed using 24 fungal species	2015-02-11
+280	P. italicum phylome (1)	Penicillium italicum					Penicillium italicum phylome reconstructed during genome annotation, reconstructed using 24 fungal species	2015-02-11
+281	P. chrysogenum phylome (2)	Penicillium chrysogenum					Penicillium chrysogenum phylome reconstructed during genome annotation of P. expansum and P. italicum, reconstructed using 24 fungal species	2015-02-11
+282	P. digitatum phylome (2)	Penicillium digitatum					Penicillium digitatum phylome reconstructed during genome annotation of P. expansum and P. italicum, reconstructed using 24 fungal species	2015-02-11
+283	P. oxalicum phylome (1)	Penicillium oxalicum 114-2					Penicillium oxalicum phylome reconstructed during genome annotation of P. expansum and P. italicum, reconstructed using 24 fungal species	2015-02-11
+298	Halobacterium salinarum R1 phylome (CAFA)	Halobacterium salinarum R1					Meta-phylome reconstructed for the CAFA project	2013-12-17
+299	Ignicoccus hospitalis phylome (CAFA)	Ignicoccus hospitalis (strain KIN4/I / DSM 18386 / JCM 14125)					Meta-phylome reconstructed for the CAFA project	2013-12-17
+300	Methanocaldococcus jannaschii phylome (CAFA)	Methanocaldococcus jannaschii DSM 2661					Meta-phylome reconstructed for the CAFA project	2013-12-17
+301	Pyrococcus furiosus phylome (CAFA)	Pyrococcus furiosus DSM 3638					Meta-phylome reconstructed for the CAFA project	2013-12-17
+302	Sulfolobus solfataricus phylome (CAFA)	Sulfolobus solfataricus P2					Meta-phylome reconstructed for the CAFA project	2013-12-17
+303	Nitrosopumilus maritimus phylome (CAFA)	Nitrosopumilus maritimus (strain SCM1)					Meta-phylome reconstructed for the CAFA project	2013-12-17
+304	Korarchaeum cryptofilum phylome (CAFA)	Korarchaeum cryptofilum (strain OPF8)					Meta-phylome reconstructed for the CAFA project	2013-12-17
+305	Pyrococcus abyssi phylome (CAFA)	Pyrococcus abyssi GE5					Meta-phylome reconstructed for the CAFA project	2013-12-17
+306	Methanosarcina acetivorans phylome (CAFA)	Methanosarcina acetivorans C2A					Meta-phylome reconstructed for the CAFA project	2013-12-17
+307	Archaeoglobus fulgidus phylome (CAFA)	Archaeoglobus fulgidus DSM 4304					Meta-phylome reconstructed for the CAFA project	2013-12-17
+308	Pyrobaculum arsenaticum phylome (CAFA)	Pyrobaculum arsenaticum (strain DSM 13514 / JCM 11321)					Meta-phylome reconstructed for the CAFA project	2013-12-17
+309	Thermoplasma volcanium phylome (CAFA)	Thermoplasma volcanium (strain ATCC 51530 / DSM 4299 / IFO 15438 / JCM 9571 / GSS1)					Meta-phylome reconstructed for the CAFA project	2013-12-17
+310	Thermococcus kodakarensis phylome (CAFA)	Thermococcus kodakarensis KOD1					Meta-phylome reconstructed for the CAFA project	2013-12-17
+311	Methanococcus maripaludis phylome (CAFA)	Methanococcus maripaludis (strain C6 / ATCC BAA-1332)					Meta-phylome reconstructed for the CAFA project	2013-12-17
+312	Bacillus subtilis phylome (CAFA)	Bacillus subtilis					Meta-phylome reconstructed for the CAFA project	2013-12-17
+313	Escherichia coli phylome (CAFA)	Escherichia coli K-12					Meta-phylome reconstructed for the CAFA project	2013-12-17
+314	Helicobacter pylori phylome (CAFA)	Helicobacter pylori 26695					Meta-phylome reconstructed for the CAFA project	2013-12-17
+315	Mycoplasma genitalium phylome (CAFA)	Mycoplasma genitalium					Meta-phylome reconstructed for the CAFA project	2013-12-17
+316	Pseudomonas aeruginosa phylome (CAFA)	Pseudomonas aeruginosa PAO1					Meta-phylome reconstructed for the CAFA project	2013-12-17
+317	Pseudomonas putida phylome (CAFA)	Pseudomonas putida (strain KT2440)					Meta-phylome reconstructed for the CAFA project	2013-12-17
+318	Pseudomonas syringae phylome (CAFA)	Pseudomonas syringae pv. tomato str. DC3000					Meta-phylome reconstructed for the CAFA project	2013-12-17
+319	Salmonella choleraesuis phylome (CAFA)	Salmonella choleraesuis					Meta-phylome reconstructed for the CAFA project	2013-12-17
+320	Salmonella enterica phylome (CAFA)	Salmonella enterica subsp. enterica serovar Typhimurium str. LT2					Meta-phylome reconstructed for the CAFA project	2013-12-17
+321	Streptococcus pneumoniae phylome (CAFA)	Streptococcus pneumoniae TIGR4					Meta-phylome reconstructed for the CAFA project	2013-12-17
+322	Desulfovibrio vulgaris phylome (CAFA)	Desulfovibrio vulgaris (strain Hildenborough / ATCC 29579 / NCIMB 8303)					Meta-phylome reconstructed for the CAFA project	2013-12-17
+323	Clostridium difficile phylome (CAFA)	Clostridium difficile 630					Meta-phylome reconstructed for the CAFA project	2013-12-17
+324	Lactobacillus plantarum phylome (CAFA)	Lactobacillus plantarum WCFS1					Meta-phylome reconstructed for the CAFA project	2013-12-17
+325	Corynebacterium glutamicum phylome (CAFA)	Corynebacterium glutamicum R					Meta-phylome reconstructed for the CAFA project	2013-12-17
+326	Haemophilus influenzae phylome (CAFA)	Haemophilus influenzae Rd KW20					Meta-phylome reconstructed for the CAFA project	2013-12-17
+327	Xanthobacter autotrophicus phylome (CAFA)	Xanthobacter autotrophicus Py2					Meta-phylome reconstructed for the CAFA project	2013-12-17
+328	Mycobacterium tuberculosis phylome (CAFA)	Mycobacterium tuberculosis					Meta-phylome reconstructed for the CAFA project	2013-12-17
+329	Streptomyces coelicolor phylome (CAFA)	Streptomyces coelicolor A3(2)					Meta-phylome reconstructed for the CAFA project	2013-12-17
+330	Frankia sp. phylome (CAFA)	Frankia sp. (strain CcI3)					Meta-phylome reconstructed for the CAFA project	2013-12-17
+331	Staphylococcus aureus phylome (CAFA)	Staphylococcus aureus (strain Mu50 / ATCC 700699)					Meta-phylome reconstructed for the CAFA project	2013-12-17
+332	Listeria monocytogenes phylome (CAFA)	Listeria monocytogenes EGD-e					Meta-phylome reconstructed for the CAFA project	2013-12-17
+333	Agrobacterium tumefaciens phylome (CAFA)	Agrobacterium tumefaciens (strain C58 / ATCC 33970)					Meta-phylome reconstructed for the CAFA project	2013-12-17
+334	Bifidobacterium longum phylome (CAFA)	Bifidobacterium longum					Meta-phylome reconstructed for the CAFA project	2013-12-17
+335	Streptococcus mutans phylome (CAFA)	Streptococcus mutans UA159					Meta-phylome reconstructed for the CAFA project	2013-12-17
+336	Shewanella oneidensis phylome (CAFA)	Shewanella oneidensis MR-1					Meta-phylome reconstructed for the CAFA project	2013-12-17
+337	Oceanobacillus iheyensis phylome (CAFA)	Oceanobacillus iheyensis HTE831					Meta-phylome reconstructed for the CAFA project	2013-12-17
+338	Bradyrhizobium japonicum phylome (CAFA)	Bradyrhizobium japonicum					Meta-phylome reconstructed for the CAFA project	2013-12-17
+339	Nitrosomonas europaea phylome (CAFA)	Nitrosomonas europaea ATCC 19718					Meta-phylome reconstructed for the CAFA project	2013-12-17
+340	Rhodopseudomonas palustris phylome (CAFA)	Rhodopseudomonas palustris CGA009					Meta-phylome reconstructed for the CAFA project	2013-12-17
+341	Rubrobacter xylanophilus phylome (CAFA)	Rubrobacter xylanophilus (strain DSM 9941 / NBRC 16129)					Meta-phylome reconstructed for the CAFA project	2013-12-17
+342	Rhodospirillum rubrum phylome (CAFA)	Rhodospirillum rubrum (strain ATCC 11170 / NCIB 8255)					Meta-phylome reconstructed for the CAFA project	2013-12-17
+343	Rhodobacter sphaeroides phylome (CAFA)	Rhodobacter sphaeroides (strain ATCC 17023 / 2.4.1 / NCIB 8253 / DSM 158)					Meta-phylome reconstructed for the CAFA project	2013-12-17
+344	Thermus thermophilus phylome (CAFA)	Thermus thermophilus (strain HB8 / ATCC 27634 / DSM 579)					Meta-phylome reconstructed for the CAFA project	2013-12-17
+345	Lactococcus lactis phylome (CAFA)	Lactococcus lactis subsp. cremoris MG1363					Meta-phylome reconstructed for the CAFA project	2013-12-17
+346	Caulobacter crescentus phylome (CAFA)	Caulobacter crescentus (strain NA1000 / CB15N)					Meta-phylome reconstructed for the CAFA project	2013-12-17
+349	Sea urchin (Strongylocentrotus purpuratus) phylome in the context of other metazoan genomes	Strongylocentrotus purpuratus					Strongylocentrotus purpuratus phylome reconstructed for Echinobase/Xenbase collaboration	2020-11-12
+353	Xenopus tropicalis phylome	Xenopus tropicalis					Xenopus tropicalis phylome  for Echinobase/Xenbase collaboration	2020-11-12
+357	P. expansum phylome (2)	Penicillium expansum					Reduced phylome of Penicillium expansum for the Penicillium comparative analysis	2015-02-11
+358	P. aurantiogriseum phylome (1)	Penicillium aurantiogriseum NRRL 62431					Reduced phylome of Penicillium expansum for the Penicillium comparative analysis	2015-02-11
+359	P. italicum phylome (2)	Penicillium italicum					Reduced phylome of Penicillium expansum for the Penicillium comparative analysis	2015-02-11
+360	P. digitatum phylome (3)	Penicillium digitatum					Reduced phylome of Penicillium expansum for the Penicillium comparative analysis	2015-02-11
+361	P. camemberti phylome (1)	Penicillium camemberti					Reduced phylome of Penicillium expansum for the Penicillium comparative analysis	2015-02-11
+362	P. roqueforti phylome (1)	Penicillium roqueforti					Reduced phylome of Penicillium expansum for the Penicillium comparative analysis	2015-02-11
+363	P. chrysogenum phylome (3)	Penicillium chrysogenum					Reduced phylome of Penicillium expansum for the Penicillium comparative analysis	2015-02-11
+364	P. oxalicum phylome (2)	Penicillium oxalicum 114-2					Reduced phylome of Penicillium expansum for the Penicillium comparative analysis	2015-02-11
+365	P. occitanis phylome	Penicillium occitanis					Phylome reconstructing during the genome analysis of Penicillium occitanis	2014-08-28
+366	P. marneffei phylome	Penicillium marneffei ATCC 18224					Phylome reconstructed during the genome analysis of Penicillium occitanis	2014-08-28
+367	T. stipitatus phylome	Talaromyces stipitatus ATCC 10500					Phylome reconstructed during the genome analysis of Penicillium occitanis	2014-08-28
+368	P. griseofulvum phylome (1)	Penicillium cf. griseofulvum UFMGCB 6741					Phylome reconstructed in the genome project of Penicillium griseofulvum	2014-09-05
+369	P. occitanis phylome (2)	Penicillium occitanis					Penicillium occitanis phylome reconstructed for the species genome project	2016-09-22
+383	M. fructicola phylome	Monilinia fructicola					Monilinia fructicola phylome reconstructed for the Monilinia project	2020-02-21
+384	M. fructigena phylome	Monilinia fructigena					Monilinia fructigena phylome reconstructed for the Monilinia project	2020-02-21
+385	M. polystroma phylome	Monilinia polystroma					Monilinia polystroma phylome reconstructed for the Monilinia project	2020-02-21
+386	M. aucupariae phylome	Monilinia aucupariae					Monilinia aucupariae phylome reconstructed for the Monilinia project	2020-02-21
+387	M. laxa phylome (2)	Monilinia laxa					Monilinia laxa phylome reconstructed for the Monilinia project	2020-02-21
+404	Candida pseudojiufengensis	Candida pseudojiufengensis					C. pseudojiufengensis phylome	2019-07-04
+406	Prunus dulcis phylome	Prunus dulcis					Prunus dulcis phylome	2019-01-02
+407	Prunus persica phylome	Prunus persica					Prunus persica phylome	2019-01-02
+410	S. cerevisiae phylome (10)	Saccharomyces cerevisiae					S. cerevisiae phylome reconstructed for iGenolevures	2015-07-08
+411	Y. lipolytica phylome (4)	Yarrowia lipolytica					Y. lipolytica phylome reconstructed for iGenolevures	2015-07-08
+412	C. albicans phylome	Candida albicans					C. albicans phylome reconstructed for iGenolevures	2015-07-08
+413	C. fabianii phylome (1)	Cyberlindnera fabianii					Cyberlindnera fabianii phylome reconstructed for iGenolevures	2015-07-08
+414	K. lactis phylome	Kluyveromyces lactis					K. lactis phylome reconstructed for iGenolevures	2015-07-08
+415	Z. bailii phylome	Zygosaccharomyces bailii CLIB 213					Z. bailii phylome reconstructed for iGenolevures	2015-07-08
+421	L. fermentati phylome	Lachancea fermentati					Lachancea fermentati phylome reconstructed for the Lachancea sequencing project	2016-04-24
+422	L. fantastica phylome	Lachancea sp. CBS 6924					Lachancea fantastica phylome reconstructed for the Lachancea sequencing project	2016-04-26
+423	Candida margitis phylome	Candida margitis					Candida margitis phylome reconstructed for genome analysis together with Candida theae, Candida oxycetoniae, Candida jiufengensis and Candida pseudoji...[More]	2020-11-26
+424	Bradyrhizobium diazoefficiens phylome	Bradyrhizobium japonicum USDA 110					Bradyrhizobium diazoefficiens phylome reconstructed for the QFO2020	2021-07-27
+425	Neisseria meningitidis phylome	Neisseria meningitidis MC58					Neisseria meningitidis phylome reconstructed for the QFO2020	2021-07-27
+426	Helicobacter pylori phylome	Helicobacter pylori 26695					Helicobacter pylori phylome reconstructed for the QFO2020	2021-07-27
+427	Mycoplasma genitalium phylome	Mycoplasma genitalium					Mycoplasma genitalium phylome reconstructed for the QFO2020	2021-07-27
+429	Puccinia graminis phylome	Puccinia graminis f. sp. tritici CRL 75-36-700-3					Puccinia graminis phylome reconstructed for the QFO2020	2021-07-27
+430	Batrachochytrium dendrobatidis phylome	Batrachochytrium dendrobatidis JAM81					Batrachochytrium dendrobatidis phylome reconstructed for the QFO2020	2021-07-27
+431	Phylome of Strongylocentrotus purpuratus (Echinodermata), including representatives of all main anim	Strongylocentrotus purpuratus					Phylome of Strongylocentrotus purpuratus (Echinodermata), including representatives of all main animal lineages and the following outgroups: Monosiga ...[More]	2018-02-05
+433	M. pneumoniae phylome [UPDATE]	Mycoplasma pneumoniae					[Update phylome 35]: Mycoplasma pneumoniae phylome in the context of 29 mycoplasmas and related species	2021-01-18
+434	M. pulmonis phylome [UPDATE]	Mycoplasma pulmonis					[Update phylome 36]: Mycoplasma pulmonis phylome in the context of 29 mycoplasmas and related species	2021-01-18
+435	M. capricolum phylome [UPDATE]	Mycoplasma capricolum subsp. capricolum (strain California kid / ATCC 27343 / NCTC 10154)					[Update phylome 37]: Mycoplasma capricolum subsp. capricolum phylome in the context of 29 mycoplasmas and related species	2021-01-18
+436	Aster yellows phytoplasma phylome [Update]	Aster yellows witches'-broom phytoplasma (strain AYWB)					[Update phylome 38]: Aster yellows phytoplasma phylome in the context of 29 mycoplasmas and related species	2021-01-18
+437	M. hyopneumoniae phylome [UPDATE]	Mycoplasma hyopneumoniae (strain 232)					[Update phylome 39]: Mycoplasma hyopneumoniae phylome reconstructed in the context of 37 other closely related bacterial species.	2021-01-18
+441	Phylome of Acyrthosiphon pisum in the context of aphid evolution	Acyrthosiphon pisum					Phylome of Acyrthosiphon pisum	2018-03-12
+444	Oryzias latipes phylome	Oryzias latipes					Oryzias latipes phylome reconstructed for the QFO2020	2021-07-27
+445	Danio rerio phylome	Danio rerio					Danio rerio phylome reconstructed for the QFO2020	2021-07-27
+446	Gorilla gorilla phylome	Gorilla gorilla gorilla					Gorilla gorilla phylome reconstructed for the QFO2020	2021-07-27
+447	Pan troglodytes phylome	Pan troglodytes					Pan troglodytes phylome reconstructed for the QFO2020	2021-07-27
+448	Bos taurus phylome	Bos taurus					Bos taurus phylome reconstructed for the QFO2020	2021-07-27
+449	Canis familiaris phylome	Canis familiaris					Canis familiaris phylome reconstructed for the QFO2020	2021-07-27
+450	Monodelphis domestica phylome	Monodelphis domestica					Monodelphis domestica phylome reconstructed for the QFO2020	2021-07-27
+451	Xenopus tropicalis phylome	Xenopus tropicalis					Xenopus tropicalis phylome reconstructed for the QFO2020	2021-07-27
+454	Candida inconspicua	[Candida] inconspicua					Candida inconspicua phylome	2018-05-21
+462	Phylome of Amphimedon queenslandica (Porifera), including representatives of all main animal lineage	Amphimedon queenslandica					Phylome of Amphimedon queenslandica (Porifera), including representatives of all main animal lineages and the following outgroups: Monosiga brevicolli...[More]	2017-10-23
+464	Fungal pathogens metaphylome	Candida albicans					Fungal pathogens metaphylome in context of 60 species.	2014-07-24
+465	Babesia bovis T2Bo phylome	Babesia bovis T2Bo					Plasmodium Comparative Genome Project	2015-11-20
+466	Plasmodium knowlesi (strain H) phylome	Plasmodium knowlesi (strain H)					Plasmodium Comparative Genome Project	2015-11-20
+467	Plasmodium yoelii phylome	Plasmodium yoelii					Plasmodium Comparative Genome Project	2015-11-20
+468	Vitrella brassicaformis CCMP3155 phylome	Vitrella brassicaformis CCMP3155					Plasmodium Comparative Genome Project	2015-11-20
+469	Toxoplasma gondii ME49 phylome	Toxoplasma gondii ME49					Plasmodium Comparative Genome Project	2015-11-20
+470	Plasmodium reichenowi phylome	Plasmodium reichenowi					Plasmodium Comparative Genome Project	2016-02-24
+471	Plasmodium cynomolgi strain B phylome	Plasmodium cynomolgi strain B					Plasmodium Comparative Genome Project	2015-11-20
+472	Chromera velia CCMP2878 phylome	Chromera velia CCMP2878					Plasmodium Comparative Genome Project	2015-11-20
+473	Plasmodium vivax (strain Salvador I) phylome	Plasmodium vivax (strain Salvador I)					Plasmodium Comparative Genome Project	2015-11-20
+474	Theileria parva strain Muguga phylome	Theileria parva strain Muguga					Plasmodium Comparative Genome Project	2015-11-20
+475	Plasmodium falciparum 3D7 phylome	Plasmodium falciparum 3D7					Plasmodium Comparative Genome Project	2015-11-20
+477	Tribolium castaneum phylome	Tribolium castaneum					Tribolium castaneum phylome reconstructed for the QFO2020	2021-07-27
+478	Helobdella robusta phylome	Helobdella robusta					Helobdella robusta phylome reconstructed for the QFO2020	2021-07-27
+479	Phytophthora ramorum phylome	Phytophthora ramorum					Phytophthora ramorum phylome reconstructed for the QFO2020	2021-07-27
+480	Chlamydomonas reinhardtii phylome	Chlamydomonas reinhardtii					Chlamydomonas reinhardtii phylome reconstructed for the QFO2020	2021-07-27
+481	Oryza sativa phylome	Oryza sativa subsp. japonica					Oryza sativa phylome reconstructed for the QFO2020	2021-07-27
+482	Zea mays phylome	Zea mays					Zea mays phylome reconstructed for the QFO2020	2021-07-27
+483	Gorilla gorilla phylome	Gorilla gorilla gorilla					Gorilla gorilla phylome reconstructed for the QFO2020 (Eukaryota)	2021-07-27
+484	Xenopus tropicalis phylome	Xenopus tropicalis					Xenopus tropicalis phylome reconstructed for the QFO2020 (Eukaryota)	2021-07-27
+485	Human phylome	Homo sapiens					Human phylome reconstructed for the QFO2020 (Eukaryota)	2021-07-27
+486	Yeast phylome	Saccharomyces cerevisiae					Yeast phylome reconstructed for the QFO2020 (Eukaryota)	2021-07-27
+487	Puccinia graminis phylome	Puccinia graminis f. sp. tritici CRL 75-36-700-3					Puccinia graminis phylome reconstructed for the QFO2020 (Eukaryota)	2021-07-27
+488	Batrachochytrium dendrobatidis phylome	Batrachochytrium dendrobatidis JAM81					Batrachochytrium dendrobatidis phylome reconstructed for the QFO2020 (Eukaryota)	2021-07-27
+489	Lepisosteus oculatus phylome	Lepisosteus oculatus					Lepisosteus oculatus phylome for the QFO2020 (Vertebrate set)	2021-08-03
+490	Mus musculus phylome	Mus musculus					Mus musculus phylome for the QFO2020 (Vertebrate set)	2021-08-03
+491	Rattus norvegicus phylome	Rattus norvegicus					Rattus norvegicus phylome for the QFO2020 (Vertebrate set)	2021-08-03
+492	Homo sapiens phylome	Homo sapiens					Homo sapiens phylome for the QFO2020 (Vertebrate set)	2021-08-03
+493	Gallus gallus phylome	Gallus gallus					Gallus gallus phylome for the QFO2020 (Vertebrate set)	2021-08-03
+498	Candida inconspicua	[Candida] inconspicua					Candida inconspicua phylome2	2018-06-08
+500	[QfO] Reference Model Species Metaphylome - H. sapiens	Homo sapiens					H. sapiens based phylome in the context of a collection of 14 phylomes, one for each of the Reference Model Species from the 'Quest for Orthologs - Re...[More]	2015-02-11
+501	[QfO] Reference Model Species Metaphylome - S. cerevisiae	Saccharomyces cerevisiae					S. cerevisiae based phylome in the context of a collection of 14 phylomes, one for each of the Reference Model Species from the 'Quest for Orthologs -...[More]	2015-02-11
+502	[QfO] Reference Model Species Metaphylome - A. thaliana	Arabidopsis thaliana					A. thaliana based phylome in the context of a collection of 14 phylomes, one for each of the Reference Model Species from the 'Quest for Orthologs - R...[More]	2015-02-11
+503	[QfO] Reference Model Species Metaphylome - P. falciparum	Plasmodium falciparum 3D7					A. falciparum based phylome in the context of a collection of 14 phylomes, one for each of the Reference Model Species from the 'Quest for Orthologs -...[More]	2015-02-11
+504	[QfO] Reference Model Species Metaphylome - M. musculus	Mus musculus					M. musculus based phylome in the context of a collection of 14 phylomes, one for each of the Reference Model Species from the 'Quest for Orthologs - R...[More]	2015-02-11
+505	[QfO] Reference Model Species Metaphylome - E. coli	Escherichia coli K-12					E. coli based phylome in the context of a collection of 14 phylomes, one for each of the Reference Model Species from the 'Quest for Orthologs - Relea...[More]	2015-02-11
+506	[QfO] Reference Model Species Metaphylome - D. melanogaster	Drosophila melanogaster					D. melanogaster based phylome in the context of a collection of 14 phylomes, one for each of the Reference Model Species from the 'Quest for Orthologs...[More]	2015-02-11
+507	[QfO] Reference Model Species Metaphylome - D. rerio	Danio rerio					D. rerio based phylome in the context of a collection of 14 phylomes, one for each of the Reference Model Species from the 'Quest for Orthologs - Rele...[More]	2015-02-11
+508	[QfO] Reference Model Species Metaphylome - S. pombe	Schizosaccharomyces pombe (strain 972/ATCC 24843)					S. pombe based phylome in the context of a collection of 14 phylomes, one for each of the Reference Model Species from the 'Quest for Orthologs - Rele...[More]	2015-02-11
+509	[QfO] Reference Model Species Metaphylome - C. elegans	Caenorhabditis elegans					C. elegans based phylome in the context of a collection of 14 phylomes, one for each of the Reference Model Species from the 'Quest for Orthologs - Re...[More]	2015-02-11
+510	[QfO] Reference Model Species Metaphylome - C. albicans	Candida albicans					C. albicans based phylome in the context of a collection of 14 phylomes, one for each of the Reference Model Species from the 'Quest for Orthologs - R...[More]	2015-02-11
+511	[QfO] Reference Model Species Metaphylome - D. discoideum	Dictyostelium discoideum					D. discoideum based phylome in the context of a collection of 14 phylomes, one for each of the Reference Model Species from the 'Quest for Orthologs -...[More]	2015-02-11
+512	[QfO] Reference Model Species Metaphylome - G. gallus	Gallus gallus					G. gallus based phylome in the context of a collection of 14 phylomes, one for each of the Reference Model Species from the 'Quest for Orthologs - Rel...[More]	2015-02-11
+513	[QfO] Reference Model Species Metaphylome - R. norvegicus	Rattus norvegicus					R. norvegicus based phylome in the context of a collection of 14 phylomes, one for each of the Reference Model Species from the 'Quest for Orthologs -...[More]	2015-02-11
+514	[QfO] Human phylome	Homo sapiens					H. sapiens based phylome in the context of 66 species from the 'Quest for Orthologs - Release 2011'	2015-02-11
+515	[QfO] Yeast phylome	Saccharomyces cerevisiae					S. cerevisiae based phylome in the context of 66 species from the 'Quest for Orthologs - Release 2011'	2015-02-11
+516	[QfO] Arabidopsis phylome	Arabidopsis thaliana					A. thaliana based phylome in the context of 66 species from the 'Quest for Orthologs - Release 2011'	2015-02-11
+517	[QfO] Plasmodium phylome	Plasmodium falciparum 3D7					P. falciparum based phylome in the context of 66 species from the 'Quest for Orthologs - Release 2011'	2015-02-11
+518	[QfO] Mouse phylome	Mus musculus					M. musculus based phylome in the context of 66 species from the 'Quest for Orthologs - Release 2011'	2015-02-11
+519	[QfO] E. coli phylome	Escherichia coli K-12					E. coli based phylome in the context of 66 species from the 'Quest for Orthologs - Release 2011'	2015-02-11
+520	[QfO] Fly phylome	Drosophila melanogaster					D. melanogaster based phylome in the context of 66 species from the 'Quest for Orthologs - Release 2011'	2015-02-11
+521	[QfO] Fish phylome	Danio rerio					D. rerio based phylome in the context of 66 species from the 'Quest for Orthologs - Release 2011'	2015-02-11
+522	[QfO] Pombe phylome	Schizosaccharomyces pombe (strain 972/ATCC 24843)					S. pombe based phylome in the context of 66 species from the 'Quest for Orthologs - Release 2011'	2015-02-11
+523	[QfO] Worm phylome	Caenorhabditis elegans					C. elegans based phylome in the context of 66 species from the 'Quest for Orthologs - Release 2011'	2015-02-11
+524	[QfO] Albicans phylome	Candida albicans					C. albicans based phylome in the context of 66 species from the 'Quest for Orthologs - Release 2011'	2015-02-11
+525	[QfO] D. discoideum phylome	Dictyostelium discoideum					D. discoideum based phylome in the context of 66 species from the 'Quest for Orthologs - Release 2011'	2015-02-11
+526	[QfO] Chicken phylome	Gallus gallus					G. gallus based phylome in the context of 66 species from the 'Quest for Orthologs - Release 2011'	2015-02-11
+527	[QfO] Rat phylome	Rattus norvegicus					R. norvegicus based phylome in the context of 66 species from the 'Quest for Orthologs - Release 2011'	2015-02-11
+528	[QfO] Synechocystis phylome	Synechocystis sp. PCC 6803 substr. Kazusa					S. sp. PCC6803 substr. Kazusa based phylome in the context of 66 species from the 'Quest for Orthologs - Release 2011'	2015-02-11
+529	[QfO] Bacillus phylome	Bacillus subtilis					B. subtilis based phylome in the context of 66 species from the 'Quest for Orthologs - Release 2011'	2015-02-11
+530	[QfO] Streptomyces phylome	Streptomyces coelicolor A3(2)					S. coelicolor based phylome in the context of 66 species from the 'Quest for Orthologs - Release 2011'	2015-02-11
+531	[QfO] Halobacterium phylome	Halobacterium sp. NRC-1					H. sp. NRc-1 based phylome in the context of 66 species from the 'Quest for Orthologs - Release 2011'	2015-02-11
+532	[QfO] Methanosarcina phylome	Methanosarcina acetivorans C2A					M. acetivorans C2A based phylome in the context of 66 species from the 'Quest for Orthologs - Release 2011	2015-02-11
+533	[QfO] Human phylome (2)	Homo sapiens					H. sapiens based phylome in the context of vertebrate species from the 'Quest for Orthologs - Release 2011'	2015-02-11
+534	[QfO] Human phylome (3)	Homo sapiens					H. sapiens based phylome in the context of metazoan species from the 'Quest for Orthologs - Release 2011'	2015-02-11
+535	[QfO] Mouse phylome (2)	Mus musculus					M. musculus based phylome in the context of metazoan species from the 'Quest for Orthologs - Release 2011'	2015-02-11
+536	[QfO] Zebrafish phylome (2)	Danio rerio					D. rerio based phylome in the context of metazoan species from the 'Quest for Orthologs - Release 2011'	2015-02-11
+537	[QfO] Model fungal species metaphylome - S. cerevisiae	Saccharomyces cerevisiae					S. cerevisiae based phylome in the context of fungal species from the 'Quest for Orthologs - Release 2011'	2015-02-11
+538	[QfO] Model fungal species metaphylome - C. albicans	Candida albicans					C. albicans based phylome in the context of fungal species from the 'Quest for Orthologs - Release 2011'	2015-02-11
+539	[QfO] Model fungal species metaphylome - S. pombe	Schizosaccharomyces pombe (strain 972/ATCC 24843)					S. pombe based phylome in the context of fungal species from the 'Quest for Orthologs - Release 2011'	2015-02-11
+540	[QfO] Model fungal species metaphylome - A. fumigatus	Aspergillus fumigatus A1163					A. fumigatus based phylome in the context of fungal species from the 'Quest for Orthologs - Release 2011'	2015-02-11
+541	[QfO] Model fungal species metaphylome - N. crassa	Neurospora crassa					N. crassa based phylome in the context of fungal species from the 'Quest for Orthologs - Release 2011'	2015-02-11
+542	Schizosaccharomyces pombe phylome	Schizosaccharomyces pombe (strain 972/ATCC 24843)					Schizosaccharomyces pombe phylome for QFO2020 (78 species)	2021-08-10
+543	Cryptococcus neoformans phylome	Cryptococcus neoformans var. neoformans JEC21					Cryptococcus neoformans phylome for the QFO2020 (78 species)	2021-08-10
+544	Puccinia graminis phylome	Puccinia graminis f. sp. tritici CRL 75-36-700-3					Puccinia graminis phylome for the QFO2020 (78 species)	2021-08-10
+545	Ustilago maydis phylome	Ustilago maydis					Ustilago maydis phylome for the QFO2020 (78 species)	2021-08-10
+546	Batrachochytrium dendrobatidis phylome	Batrachochytrium dendrobatidis JAM81					Batrachochytrium dendrobatidis phylome for the QFO2020 (78 species)	2021-08-10
+548	Pan troglodytes phylome	Pan troglodytes					Pan troglodytes phylome for the QFO2020 (78 species)	2021-08-11
+549	Bos taurus phylome	Bos taurus					Bos taurus phylome for the QFO2020 (78 species)	2021-08-11
+550	Canis lupus familiaris phylome	Canis familiaris					Canis lupus familiaris phylome for the QFO2020 (78 species)	2021-08-11
+551	Monodelphis domestica phylome	Monodelphis domestica					Monodelphis domestica phylome for the QFO2020 (78 species)	2021-08-11
+552	Gallus gallus phylome	Gallus gallus					Gallus gallus phylome for the QFO2020 (78 species)	2021-08-11
+553	Xenopus tropicalis phylome	Xenopus tropicalis					Xenopus tropicalis phylome for the QFO2020 (78 species)	2021-08-11
+554	Ciona intestinalis phylome	Ciona intestinalis					Ciona intestinalis phylome for the QFO2020 (78 species)	2021-08-11
+556	Methanocaldococcus jannaschii phylome	Methanocaldococcus jannaschii DSM 2661					Methanocaldococcus jannaschii phylome for the QFO2020 (78 species)	2021-08-02
+557	Halobacterium salinarum phylome	Halobacterium sp. NRC-1					Halobacterium salinarum phylome for the QFO2020 (78 species)	2021-08-02
+558	Methanosarcina acetivorans phylome	Methanosarcina acetivorans C2A					Methanosarcina acetivorans phylome for the QFO2020 (78 species)	2021-08-02
+559	Thermococcus kodakarensis phylome	Thermococcus kodakarensis KOD1					Thermococcus kodakarensis phylome for the QFO2020 (78 species)	2021-08-02
+560	Korarchaeum cryptofilum phylome	Korarchaeum cryptofilum (strain OPF8)					Korarchaeum cryptofilum phylome for the QFO2020 (78 species)	2021-08-02
+561	Saccharolobus solfataricus phylome	Sulfolobus solfataricus P2					Saccharolobus solfataricus phylome for the QFO 2020 (78 species)	2021-08-02
+562	Nitrosopumilus maritimus phylome	Nitrosopumilus maritimus (strain SCM1)					Nitrosopumilus maritimus phylome for the QFO 2020 (78 species)	2021-08-02
+563	Aquifex aeolicus phylome	Aquifex aeolicus VF5					Aquifex aeolicus phylome for the QFO2020 (78 species)	2021-08-02
+564	Dictyoglomus turgidum phylome	Dictyoglomus turgidum DSM 6724					Dictyoglomus turgidum phylome for the QFO2020 (78 species)	2021-08-02
+565	Bacteroides thetaiotaomicron phylome	Bacteroides thetaiotaomicron VPI-5482					Bacteroides thetaiotaomicron phylome for the QFO2020 (78 species)	2021-08-02
+566	Fusobacterium nucleatum phylome	Fusobacterium nucleatum subsp. nucleatum ATCC 25586					Fusobacterium nucleatum phylome for the QFO2020 (78 species)	2021-08-02
+567	Thermodesulfovibrio yellowstonii phylome	Thermodesulfovibrio yellowstonii DSM 11347					Thermodesulfovibrio yellowstonii phylome for the QFO2020 (78 species)	2021-08-02
+568	Chloroflexus aurantiacus phylome	Chloroflexus aurantiacus J-10-fl					Chloroflexus aurantiacus phylome for the QFO2020 (Bacteria)	2021-08-16
+569	Gloeobacter violaceus phylome	Gloeobacter violaceus PCC 7421					Gloeobacter violaceus phylome for the QFO2020 (Bacteria)	2021-08-16
+570	Synechocystis sp. phylome	Synechocystis sp. PCC 6803 substr. Kazusa					Synechocystis sp. phylome for the QFO2020 (Bacteria)	2021-08-16
+571	Deinococcus radiodurans phylome	Deinococcus radiodurans R1					Deinococcus radiodurans phylome for the QFO2020 (Bacteria)	2021-08-16
+572	Bacillus subtilis phylome	Bacillus subtilis subsp. subtilis str. 168					Bacillus subtilis phylome for the QFO2020 (Bacteria)	2021-08-16
+573	Thermotoga maritima phylome	Thermotoga maritima					Thermotoga maritima phylome for the QFO2020 (Bacteria)	2021-08-16
+583	Panthera onca phylome (proteome based)	Panthera onca					Jaguar phylome in the context of 15 mammals	2015-07-04
+584	Panthera onca phylome without 3 species	Panthera onca					P. onca phylome without PANLE, PANPR and UNCUN	2015-07-16
+599	Mytilus galloprovincialis	Mytilus galloprovincialis					Mytilus galloprovincialis phylome in the context of 9 mollusks	2017-10-25
+653	Brucella pinnipedialis B2/94 Phylome	Brucella pinnipedialis B2/94					Brucella pinnipedialis B2/94 MetaPhylome Proejct	2016-03-04
+654	Brucella melitensis bv. 1 str. 16M Phylome	Brucella melitensis bv. 1 str. 16M					Brucella melitensis bv. 1 str. 16M MetaPhylome Proejct	2016-03-04
+655	Brucella suis 1330 Phylome	Brucella suis 1330					Brucella suis 1330 MetaPhylome Proejct	2016-03-04
+656	Brucella ceti M644/93/1 Phylome	Brucella ceti M644/93/1					Brucella ceti M644/93/1 MetaPhylome Proejct	2016-03-04
+657	Brucella canis ATCC 23365 Phylome	Brucella canis ATCC 23365					Brucella canis ATCC 23365 MetaPhylome Proejct	2016-03-04
+658	Brucella abortus 2308 Phylome	Brucella abortus 2308					Brucella abortus 2308 MetaPhylome Proejct	2016-03-04
+659	Brucella ovis ATCC 25840 Phylome	Brucella ovis ATCC 25840					Brucella ovis ATCC 25840 MetaPhylome Proejct	2016-03-04
+660	Brucella papionis Phylome	Brucella papionis					Brucella papionis MetaPhylome Proejct	2016-03-04
+661	Brucella inopinata BO1 Phylome	Brucella inopinata BO1					Brucella inopinata BO1 MetaPhylome Proejct	2016-03-04
+662	Brucella microti CCM 4915 Phylome	Brucella microti CCM 4915					Brucella microti CCM 4915 MetaPhylome Proejct	2016-03-04
+663	Brucella neotomae 5K33 Phylome	Brucella neotomae 5K33					Brucella neotomae 5K33 MetaPhylome Proejct	2016-03-04
+664	Ochrobactrum anthropi ATCC 49188 Phylome	Ochrobactrum anthropi ATCC 49188					Ochrobactrum anthropi ATCC 49188 MetaPhylome Proejct	2016-03-08
+673	Bradyrhizobium diazoefficiens phylome	Bradyrhizobium japonicum USDA 110					Bradyrhizobium diazoefficiens phylome for QFO2020 (78 species)	2021-08-02
+674	Neisseria meningitidis phylome	Neisseria meningitidis MC58					Neisseria meningitidis phylome for QFO2020 (78 species)	2021-08-02
+675	Geobacter sulfurreducens phylome	Geobacter sulfurreducens PCA					Geobacter sulfurreducens phylome for QFO2020 (78 species)	2021-08-02
+676	Helicobacter pylori phylome	Helicobacter pylori 26695					Helicobacter pylori phylome for QFO 2020 (78 species)	2021-08-02
+677	Escherichia coli phylome	Escherichia coli K-12					Escherichia coli phylome for QFO2020 (78 species)	2021-08-02
+678	Pseudomonas aeruginosa phylome	Pseudomonas aeruginosa PAO1					Pseudomonas aeruginosa phylome for QFO2020 (78 species)	2021-08-02
+679	Chlamydia trachomatis phylome	Chlamydia trachomatis D/UW-3/CX					Chlamydia trachomatis phylome for QFO2020 (78 species)	2021-08-02
+680	Rhodopirellula baltica phylome	Rhodopirellula baltica SH 1					Rhodopirellula baltica phylome for QFO2020 (78 species)	2021-08-02
+681	Leptospira interrogans phylome	Leptospira interrogans serovar Lai str. 56601					Leptospira interrogans phylome for QFO2020 (78 species)	2021-08-02
+682	Mycobacterium tuberculosis phylome	Mycobacterium tuberculosis					Mycobacterium tuberculosis phylome for QFO2020 (78 species)	2021-08-02
+683	Streptomyces coelicolor phylome	Streptomyces coelicolor A3(2)					Streptomyces coelicolor phylome for QFO2020 (78 species)	2021-08-02
+684	Chloroflexus aurantiacus phylome	Chloroflexus aurantiacus J-10-fl					Chloroflexus aurantiacus phylome for QFO2020 (78 species)	2021-08-02
+685	Gloeobacter violaceus phylome	Gloeobacter violaceus PCC 7421					Gloeobacter violaceus phylome for QFO2020 (78 species)	2021-08-02
+686	Synechocystis sp. phylome	Synechocystis sp. PCC 6803 substr. Kazusa					Synechocystis sp. phylome for QFO2020 (78 species)	2021-08-02
+687	Deinococcus radiodurans phylome	Deinococcus radiodurans R1					Deinococcus radiodurans phylome for QFO2020 (78 species)	2021-08-02
+688	Bacillus subtilis phylome	Bacillus subtilis subsp. subtilis str. 168					Bacillus subtilis phylome for QFO2020 (78 species)	2021-08-02
+689	Mycoplasma genitalium phylome	Mycoplasma genitalium					Mycoplasma genitalium phylome for QFO2020 (78 species)	2021-08-02
+690	Thermotoga maritima phylome	Thermotoga maritima					Thermotoga maritima phylome for QFO2020 (78 species)	2021-08-02
+701	Cinara cedri phylome	Cinara cedri					Cinara cedri phylome	2018-07-18
+702	Sipha flava phylome	Sipha flava					Sipha flava phylome	2018-07-18
+703	Aphis glycines phylome	Aphis glycines					Aphis glycines phylome	2018-07-18
+704	Diuraphis noxia phylome	Diuraphis noxia					Diuraphis noxia phylome	2018-07-18
+705	Myzus persicae phylome	Myzus persicae G006					Myzus persicae phylome	2018-07-18
+706	Acyrthosiphon pisum phylome	Acyrthosiphon pisum					Acyrthosiphon pisum phylome	2018-07-18
+707	Acyrthosiphon pisum chromosome assembly phylome	Acyrthosiphon pisum					Acyrthosiphon pisum phylome	2019-06-25
+709	Aphis glycines phylome	Aphis glycines					Aphis glycines phylome	2019-03-21
+714	Sparus aurata phylome	Sparus aurata					Phylome of Sparus aurata	2018-04-23
+716	Neosartorya fumigata phylome	Aspergillus fumigatus					Neosartorya fumigata phylome for the QFO2020 (Fungal set)	2021-08-03
+717	Sclerotinia sclerotiorum phylome	Sclerotinia sclerotiorum 1980 UF-70					Sclerotinia sclerotiorum phylome for the QFO2020 (Fungal set)	2021-08-03
+718	Neurospora crassa phylome	Neurospora crassa					Neurospora crassa phylome for the QFO2020 (Fungal set)	2021-08-03
+719	Candida albicans phylome	Candida albicans					Candida albicans phylome for the QFO2020 (Fungal set)	2021-08-03
+720	Yarrowia lipolytica phylome	Yarrowia lipolytica					Yarrowia lipolytica phylome for the QFO2020 (Fungal set)	2021-08-03
+721	Saccharomyces cerevisiae phylome	Saccharomyces cerevisiae					Saccharomyces cerevisiae phylome for the QFO2020 (Fungal set)	2021-08-03
+722	Schizosaccharomyces pombe phylome	Schizosaccharomyces pombe (strain 972/ATCC 24843)					Schizosaccharomyces pombe phylome for the QFO2020 (Fungal set)	2021-08-03
+723	Cryptococcus neoformans phylome	Cryptococcus neoformans var. neoformans JEC21					Cryptococcus neoformans phylome for the QFO2020 (Fungal set)	2021-08-03
+724	Ustilago maydis phylome	Ustilago maydis					Ustilago maydis phylome for the QFO2020 (Fungal set)	2021-08-03
+725	Phaeosphaeria nodorum phylome	Phaeosphaeria nodorum SN15					Phaeosphaeria nodorum phylome for the QFO2020 (Fungal set)	2021-08-03
+732	Branchiostoma floridae phylome	Branchiostoma floridae					Branchiostoma floridae phylome for the QFO2020	2021-08-11
+733	Lepisosteus oculatus phylome	Lepisosteus oculatus					Lepisosteus oculatus phylome for the QFO2020 (78 species)	2021-08-11
+734	Oryzias latipes phylome	Oryzias latipes					Oryzias latipes phylome for the QFO2020 (78 species)	2021-08-11
+735	Danio rerio phylome	Danio rerio					Danio rerio phylome for the QFO2020 (78 species)	2021-08-11
+736	Mus musculus phylome	Mus musculus					Mus musculus phylome for the QFO2020 (78 species)	2021-08-11
+737	Rattus norvegicus phylome	Rattus norvegicus					Rattus norvegicus phylome for the QFO2020 (78 species)	2021-08-11
+738	Gorilla gorilla phylome	Gorilla gorilla gorilla					Gorilla gorilla phylome for the QFO2020 (78 species)	2021-08-11
+739	Homo sapiens phylome	Homo sapiens					Homo sapiens phylome for the QFO2020 (78 species)	2021-08-11
+747	Phylome of Xenoturbella bocki (Xenoturbellida), including representatives of all main animal lineage	Xenoturbella bocki					Phylome of Xenoturbella bocki (Xenoturbellida), including representatives of all main animal lineages and the following outgroups: Monosiga brevicolli...[More]	2017-10-23
+777	Candida subhashii	Candida subhashii					C. subhashii phylome	2020-01-31
+778	Phylome of Lingula anatina (Brachiopoda; Lophotrochozoa), including representatives of all main anim	Lingula anatina					Phylome of Lingula anatina (Brachiopoda, Lophotrochozoa), including representatives of all main animal lineages and the following outgroups: Monosiga ...[More]	2018-02-05
+782	Phylome of Sagitta elegans (Chaetognatha), including representatives of all main animal lineages and	Sagitta elegans					Phylome of Sagitta elegans (Chaetognatha), including representatives of all main animal lineages and the following outgroups: Monosiga brevicollis MX1...[More]	2017-10-23
+787	Mytilus galloprovincialis	Mytilus galloprovincialis					Mytilus galloprovincialus phylome for genome project	2017-02-07
+791	Caenorhabditis elegans phylome	Caenorhabditis elegans					Caenorhabditis elegans phylome for the QFO2020 (78 species)	2021-08-11
+792	Tribolium castaneum phylome	Tribolium castaneum					Tribolium castaneum phylome for the QFO2020 (78 species)	2021-08-11
+793	Drosophila melanogaster phylome	Drosophila melanogaster					Drosophila melanogaster phylome for the QFO2020 (78 species)	2021-08-11
+794	Anopheles gambiae phylome	Anopheles gambiae					Anopheles gambiae phylome for the QFO2020 (78 species)	2021-08-11
+795	Helobdella robusta phylome	Helobdella robusta					Helobdella robusta phylome for the QFO2020 (78 species)	2021-08-11
+796	Nematostella vectensis phylome	Nematostella vectensis					Nematostella vectensis phylome for the QFO2020	2021-08-11
+797	Plasmodium falciparum phylome	Plasmodium falciparum 3D7					Plasmodium falciparum phylome for the QFO2020 (78 species)	2021-08-11
+798	Paramecium tetraurelia phylome	Paramecium tetraurelia					Paramecium tetraurelia phylome for the QFO2020 (78 species)	2021-08-11
+801	Monilinia laxa	Monilinia laxa					Monilinia laxa phylome	2017-04-27
+812	Phylome of Nematostella vectensis (Cnidaria), including representatives of all main animal lineages	Nematostella vectensis					Phylome of Nematostella vectensis (Cnidaria), including representatives of all main animal lineages and the following outgroups: Monosiga brevicollis ...[More]	2017-10-23
+817	Nicotiana benthamiana phylome	Nicotiana benthamiana					Niben	2018-06-15
+819	Phylome of Danio rerio (Deuterostomia), including representatives of all main animal lineages and th	Danio rerio					Phylome of Danio rerio (Deuterostomia), including representatives of all main animal lineages and the following outgroups: Monosiga brevicollis MX1, S...[More]	2017-10-23
+824	Phylome of Mnemiopsis leidyi (Ctenophora), including representatives of all main animal lineages and	Mnemiopsis leidyi					Phylome of Mnemiopsis leidyi (Ctenophora), including representatives of all main animal lineages and the following outgroups: Monosiga brevicollis MX1...[More]	2017-10-23
+827	Thalassiosira pseudonana phylome	Thalassiosira pseudonana					Thalassiosira pseudonana phylome for the QFO2020 (78 species)	2021-08-11
+828	Ixodes scapularis phylome	Ixodes scapularis					Ixodes scapularis phylome for the QFO2020 (78 species)	2021-08-11
+829	Phytophthora ramorum phylome	Phytophthora ramorum					Phytophthora ramorum phylome for the QFO2020 (78 species)	2021-08-11
+830	Chlamydomonas reinhardtii phylome	Chlamydomonas reinhardtii					Chlamydomonas reinhardtii  phylome for the QFO2020 (78 species)	2021-08-11
+831	Physcomitrella patens phylome	Physcomitrella patens subsp. patens					Physcomitrella patens phylome for the QFO2020	2021-08-11
+832	Arabidopsis thaliana phylome	Arabidopsis thaliana					Arabidopsis thaliana phylome for the QFO2020 (78 species)	2021-08-11
+833	Oryza sativa phylome	Oryza sativa subsp. japonica					Oryza sativa phylome for the QFO2020 (78 species)	2021-08-11
+834	Zea mays phylome	Zea mays					Zea mays phylome for the QFO2020 (78 species)	2021-08-11
+842	Trichomonascus ciferrii	Trichomonascus ciferrii					T. ciferrii phylome with prot annotation with yeast	2019-05-02
+843	Ciona intestinalis phylome	Ciona intestinalis					Ciona intestinalis phylome for the QFO2020 (Eukaryotes)	2021-08-16
+844	Caenorhabditis elegans phylome	Caenorhabditis elegans					Caenorhabditis elegans phylome for the QFO2020 (Eukaryotes)	2021-08-16
+845	Drosophila melanogaster phylome	Drosophila melanogaster					Drosophila melanogaster phylome for the QFO2020 (Eukaryotes)	2021-08-16
+846	Anopheles gambiae phylome	Anopheles gambiae					Anopheles gambiae phylome for the QFO2020 (Eukaryotes)	2021-08-16
+847	Nematostella vectensis phylome	Nematostella vectensis					Nematostella vectensis phylome for the QFO2020 (Eukaryotes)	2021-08-16
+848	Plasmodium falciparum phylome	Plasmodium falciparum 3D7					Plasmodium falciparum phylome for the QFO2020 (Eukaryotes	2021-08-16
+849	Paramecium tetraurelia phylome	Paramecium tetraurelia					Paramecium tetraurelia phylome for the QFO2020 (Eukaryotes)	2021-08-16
+850	Thalassiosira pseudonana phylome	Thalassiosira pseudonana					Thalassiosira pseudonana phylome for the QFO2020 (Eukaryotes)	2021-08-16
+851	Ixodes scapularis phylome	Ixodes scapularis					Ixodes scapularis phylome for the QFO2020 (Eukaryotes)	2021-08-16
+853	Physcomitrella patens phylome	Physcomitrella patens subsp. patens					Physcomitrella patens phylome for the QFO2020 (Eukaryotes)	2021-08-16
+854	Arabidopsis thaliana phylome	Arabidopsis thaliana					Arabidopsis thaliana phylome for the QFO2020 (Eukaryotes)	2021-08-16
+855	Branchiostoma floridae phylome	Branchiostoma floridae					Branchiostoma floridae phylome for the QFO2020 (Eukaryotes)	2021-08-16
+856	Dictyostelium discoideum phylome	Dictyostelium discoideum					Dictyostelium discoideum phylome for the QFO2020 (Eukaryotes)	2021-08-16
+857	Leishmania major phylome	Leishmania major					Leishmania major phylome for the QFO2020 (Eukaryotes)	2021-08-16
+858	Giardia intestinalis phylome	Giardia lamblia ATCC 50803					Giardia intestinalis phylome for the QFO2020 (Eukaryotes)	2021-08-16
+859	Trichomonas vaginalis phylome	Trichomonas vaginalis					Trichomonas vaginalis phylome for the QFO2020 (Eukaryotes)	2021-08-16
+860	Monosiga brevicollis phylome	Monosiga brevicollis					Monosiga brevicollis phylome for the QFO2020 (Eukaryotes)	2021-08-16
+866	Candida theae	Candida theae					C. theae phylome	2019-07-04
+875	Phylome of Octopus bimaculoides (Lophotrochozoa), including representatives of all main animal linea	Octopus bimaculoides					Phylome of Octopus bimaculoides (Lophotrochozoa), including representatives of all main animal lineages and the following outgroups: Monosiga brevicol...[More]	2017-10-23
+888	Phylome of Adineta vaga (Rotifera, Lophotrochozoa), including representatives of all main animal lin	Adineta vaga					Phylome of Adineta vaga (Rotifera, Lophotrochozoa), including representatives of all main animal lineages and the following outgroups: Monosiga brevic...[More]	2018-02-05
+896	Dictyostelium discoideum phylome	Dictyostelium discoideum					Dictyostelium discoideum phylome for the QFO2020 (78 species)	2021-08-10
+897	Leishmania major phylome	Leishmania major					Leishmania major phylome for the QFO2020 (78 species)	2021-08-10
+898	Giardia lamblia phylome	Giardia lamblia ATCC 50803					Giardia lamblia phylome for the QFO2020 (78 species)	2021-08-10
+899	Trichomonas vaginalis phylome	Trichomonas vaginalis					Trichomonas vaginalis phylome for the QFO2020 (78 species)	2021-08-10
+900	Monosiga brevicollis phylome	Monosiga brevicollis					Monosiga brevicollis phylome for the QFO2020 (78 species)	2021-08-10
+901	Phaeosphaeria nodorum phylome	Phaeosphaeria nodorum SN15					Phaeosphaeria nodorum phylome for the QFO2020 (78 species)	2021-08-10
+902	Neosartorya fumigata phylome	Aspergillus fumigatus					Neosartorya fumigata phylome for the QFO2020 (78 species)	2021-08-10
+903	Sclerotinia sclerotiorum phylome	Sclerotinia sclerotiorum 1980 UF-70					Sclerotinia sclerotiorum phylome for the QFO2020 (78 species)	2021-08-10
+904	Neurospora crassa phylome	Neurospora crassa					Neurospora crassa phylome for the QFO2020 (78 species)	2021-08-10
+905	Candida albicans phylome	Candida albicans					Candida albicans phylome for the QFO2020 (78 species)	2021-08-10
+906	Yarrowia lipolytica phylome	Yarrowia lipolytica					Yarrowia lipolytica phylome for the QFO2020 (78 species)	2021-08-10
+907	Saccharomyces cerevisiae phylome	Saccharomyces cerevisiae					Saccharomyces cerevisiae phylome for the QFO2020 (78 species)	2021-08-10
+908	Aquifex aeolicus phylome	Aquifex aeolicus VF5					Aquifex aeolicus phylome for the QFO2020 (Bacteria)	2021-08-16
+909	Dictyoglomus turgidum phylome	Dictyoglomus turgidum DSM 6724					Dictyoglomus turgidum phylome for the QFO2020 (Bacteria)	2021-08-16
+910	Bacteroides thetaiotaomicron phylome	Bacteroides thetaiotaomicron VPI-5482					Bacteroides thetaiotaomicron phylome for the QFO2020 (Bacteria)	2021-08-16
+911	Fusobacterium nucleatum phylome	Fusobacterium nucleatum subsp. nucleatum ATCC 25586					Fusobacterium nucleatum phylome for the QFO2020 (Bacteria)	2021-08-16
+912	Thermodesulfovibrio yellowstonii phylome	Thermodesulfovibrio yellowstonii DSM 11347					Thermodesulfovibrio yellowstonii phylome for the QFO2020 (Bacteria)	2021-08-16
+913	Geobacter sulfurreducens phylome	Geobacter sulfurreducens PCA					Geobacter sulfurreducens phylome for the QFO2020 (Bacteria)	2021-08-16
+914	Escherichia coli phylome	Escherichia coli K-12					Escherichia coli phylome for the QFO2020 (Bacteria)	2021-08-16
+915	Pseudomonas aeruginosa phylome	Pseudomonas aeruginosa PAO1					Pseudomonas aeruginosa phylome for the QFO2020 (Bacteria)	2021-08-16
+916	Chlamydia trachomatis phylome	Chlamydia trachomatis D/UW-3/CX					Chlamydia trachomatis phylome for the QFO2020 (Bacteria)	2021-08-16
+917	Rhodopirellula baltica phylome	Rhodopirellula baltica SH 1					Rhodopirellula baltica phylome for the QFO2020 (Bacteria)	2021-08-16
+918	Leptospira interrogans phylome	Leptospira interrogans serovar Lai str. 56601					Leptospira interrogans phylome for the QFO2020 (Bacteria)	2021-08-16
+919	Mycobacterium tuberculosis phylome	Mycobacterium tuberculosis					Mycobacterium tuberculosis phylome for the QFO2020 (Bacteria)	2021-08-16
+920	Streptomyces coelicolor phylome	Streptomyces coelicolor A3(2)					Streptomyces coelicolor phylome for the QFO2020 (Bacteria	2021-08-16
+922	Parasteatoda tepidariorum phylome	Parasteatoda tepidariorum					phylome of spiders	2018-02-23
+932	Diutina rugosa	Diutina rugosa					D. rugosa phylome with prot annotation with guilliermondii	2019-05-02
+937	Phylome of Caenorhabditis elegans (Ecdysozoa), including representatives of all main animal lineages	Caenorhabditis elegans					Phylome of Caenorhabditis elegans (Ecdysozoa), including representatives of all main animal lineages and the following outgroups: Monosiga brevicollis...[More]	2017-10-23
+950	Phylome of Drosophila melanogaster (Arthropoda, Diptera), including representatives of all main anim	Drosophila melanogaster					Phylome of Drosophila melanogaster (Arthropoda, Diptera), including representatives of all main animal lineages and the following outgroups: Monosiga ...[More]	2018-02-02
+953	Phylome of Hofstenia miamia (Acoela), including representatives of all main animal lineage	Hofstenia miamia					Phylome of Hofstenia miamia (Acoela), including representatives of all main animal lineages and the following outgroups: Monosiga brevicollis MX1, Sal...[More]	2018-02-02
+960	Candida oxycetoniae	Candida oxycetoniae					C. oxycetoniae phylome	2019-07-04

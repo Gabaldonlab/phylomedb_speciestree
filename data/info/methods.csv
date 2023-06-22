@@ -1,0 +1,10 @@
+method	multicopy	branch_lengths	branch_support	root
+duptree	yes	no	no	yes
+astral	no	CU	localPP	no
+W-astral	no	CU	localPP	no
+Astral-DISCO	yes	CU	localPP	no
+Astral-PRO	yes	CU	localPP	no
+SpeciesRax	yes	sub/site	EQPIC score	yes
+Fast-Mul-Rfs	yes	?	no	no
+Asteroid	yes	distance	bootstrap from input	no
+Concatenation	yes/no	sub/site	bootstrap,gCF,sCF	no

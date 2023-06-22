@@ -1,0 +1,6 @@
+ids: "data/phy_ids_reco.txt"
+sptrees: "data/sptrees/"
+outdir: "output/"
+
+# params
+thirdkind_collapse: 0
