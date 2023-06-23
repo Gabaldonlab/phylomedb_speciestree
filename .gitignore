@@ -7,5 +7,5 @@ logs/
 .Rapp.history
 .RData
 .Rproj.user/
-.Rproj
+*.Rproj
 data/sptrees

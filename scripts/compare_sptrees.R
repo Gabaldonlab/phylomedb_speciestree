@@ -54,7 +54,7 @@ for (file in tree_files){
         og_node <- first_clades[which.min(sapply(first_clades, function(x) length(unlist(Descendants(tree, x, type="tips")))))]
         ogs <- tree$tip.label[phangorn::Descendants(tree, og_node, type = "tips")[[1]]]
         
-        cat(paste(method, "\t", ogs), file=root_file, append=TRUE, sep="\n")
+        cat(paste(trimws(method), "\t", ogs), file=root_file, append=TRUE, sep="\n")
         
         final_og <- ifelse(method=="sprax", ogs, NA)
     }

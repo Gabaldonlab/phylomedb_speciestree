@@ -1,10 +1,10 @@
-method	multicopy	branch_lengths	branch_support	root
-duptree	yes	no	no	yes
-astral	no	CU	localPP	no
-W-astral	no	CU	localPP	no
-Astral-DISCO	yes	CU	localPP	no
-Astral-PRO	yes	CU	localPP	no
-SpeciesRax	yes	sub/site	EQPIC score	yes
-Fast-Mul-Rfs	yes	?	no	no
-Asteroid	yes	distance	bootstrap from input	no
-Concatenation	yes/no	sub/site	bootstrap,gCF,sCF	no
+method	multicopy	branch_lengths	branch_support	root	source
+duptree	yes	no	no	yes	https://doi.org/10.1093/bioinformatics/btn230
+astral	no	CU	localPP	no	https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2129-y
+W-astral	no	CU	localPP	no	https://doi.org/10.1093/molbev/msac215
+Astral-DISCO	yes	CU	localPP	no	https://doi.org/10.1093/sysbio/syab070
+Astral-PRO	yes	CU	localPP	no	https://doi.org/10.1093/bioinformatics/btac620
+SpeciesRax	yes	sub/site	EQPIC score	yes	https://doi.org/10.1093/molbev/msab365
+Fast-Mul-Rfs	yes	?	no	no	https://doi.org/10.1093/bioinformatics/btaa444
+Asteroid	yes	distance	bootstrap from input	no	https://doi.org/10.1093/bioinformatics/btac832
+Concatenation	yes/no	sub/site	bootstrap,gCF,sCF	no	

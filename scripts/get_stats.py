@@ -174,7 +174,7 @@ if __name__ == "__main__":
 
 
     out_df_tree = pd.DataFrame.from_dict(dict_tree, orient='index')
-    out_df_tree.to_csv(args.output, index_label="gene", sep="\t", float_format='%11.4f')
+    out_df_tree.to_csv(args.output, index_label="gene", sep="\t", float_format='%.3f')
 
     # out_df_aln = pd.DataFrame(aln_results)
     # out_df_aln.to_csv(out_aln_path, index=False, sep="\t")

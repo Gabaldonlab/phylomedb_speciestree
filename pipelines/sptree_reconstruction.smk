@@ -25,6 +25,10 @@ outdir=config["outdir"]
 disco=config["disco"]
 minimum_occupancy=config['minimum_occupancy']
 
+# Species 2 age dictionary
+with open(config["s2a"]) as s2a_file:
+    s2a = eval(s2a_file.read())
+
 # SAMPLES WITH PHYID
 # read phyids and get 000-code
 with open(config['ids']) as input_ids:

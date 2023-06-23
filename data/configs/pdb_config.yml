@@ -1,4 +1,7 @@
 ids: "data/ids/phy_ids.txt"
+download_ids: "data/ids/phy_ids_download.txt"
+failed_ids: "data/info/failed_download.ids"
+s2a: "data/info/phylomedb_rooting.json"
 outdir: "output/"
 disco: "/gpfs/projects/bsc40/current/gmutti/software/phylogeny/DISCO/disco.py"
 collapse: 0.2
