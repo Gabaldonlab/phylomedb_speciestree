@@ -1,6 +1,6 @@
 method	multicopy	branch_lengths	branch_support	root	source
 duptree	yes	no	no	yes	https://doi.org/10.1093/bioinformatics/btn230
-astral	no	CU	localPP	no	https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2129-y
+astral	no	CU	localPP	no	https://doi.org/10.1186/s12859-018-2129-y
 W-astral	no	CU	localPP	no	https://doi.org/10.1093/molbev/msac215
 Astral-DISCO	yes	CU	localPP	no	https://doi.org/10.1093/sysbio/syab070
 Astral-PRO	yes	CU	localPP	no	https://doi.org/10.1093/bioinformatics/btac620

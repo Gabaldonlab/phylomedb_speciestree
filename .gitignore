@@ -2,7 +2,8 @@
 output/
 logs/
 *job
-
+scripts/STRIDE/
+scripts/Quintet-Rooting/
 .Rhistory
 .Rapp.history
 .RData

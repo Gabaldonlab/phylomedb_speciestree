@@ -14,14 +14,21 @@ After this completed successfully you can go forward. **NOTE:** Do this step in 
 
 You can see phylome ids, seed species and description in this file:  [PhylomeDB.csv](data/info/PhylomeDB.csv) (Downloaded: 20/6/23).
 
-**NOTE:** Some phylomes have weird alignmet or tree file, the pipeline should manage to identify the weird ones, add the ids in `data/info/failed_download.ids` and avoid adding the id in the sptree reconstruction pipeline untile the data issue has been resolved. This is the reason of the `-k --keep-going` option.
+### Data Errors
+
+**NOTE:** Some phylomes have weird alignment or tree files, the pipeline should manage to identify the weird ones, add the ids in `data/info/failed_download.ids` and avoid adding the id in the sptree reconstruction pipeline untile the data issue has been resolved. This is the reason of the `-k --keep-going` option. Further, some phylomes may have single copy gene trees that do not cover all the species, in also this case the download pipeline will fail and the phylome id would be added in the failed ids file and not considered further. After the pipeline has run you can check if the failed phylome ids are in download and the species tree pipeline with: `comm -12 data/info/failed_download.ids data/ids/phy_ids.txt` and `comm -12 data/info/failed_download.ids data/ids/phy_ids_download.txt`. If there are some, remove them as those will require specific evaluation.
+
+These are the errors found in PhylomeDB:
+
+* Corrupted FTP files, if there are less alignments than trees exit. This may be very severe and if we check for the single copy genes that also have alignments we could go ahead. However, the alignments should be somewhere as we have the tree so it could be solved at the root one day.
+* Single copy gene trees do not have all the species therefore the single copy methods will have less species than the others and no consensus tree can be computerd. 
 
 ## Methods
 
 | method        | multicopy | branch_lengths | branch_support       | root | source                                                                         |
 | ------------- | --------- | -------------- | -------------------- | ---- | ------------------------------------------------------------------------------ |
 | duptree       | yes       | no             | no                   | yes  | https://doi.org/10.1093/bioinformatics/btn230                                  |
-| astral        | no        | CU             | localPP              | no   | https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2129-y |
+| astral        | no        | CU             | localPP              | no   | https://doi.org/10.1186/s12859-018-2129-y |
 | W-astral      | no        | CU             | localPP              | no   | https://doi.org/10.1093/molbev/msac215                                         |
 | Astral-DISCO  | yes       | CU             | localPP              | no   | https://doi.org/10.1093/sysbio/syab070                                         |
 | Astral-PRO    | yes       | CU             | localPP              | no   | https://doi.org/10.1093/bioinformatics/btac620                                 |
@@ -79,6 +86,7 @@ These are the runtimes for some test phylomes:
 
 ### TODO
 
+* fix compare sptree for few species (eg 441)
 * Check if other reason aln tar or tree file could be weird!
 * option to root with species2age
 * plot and filter gene trees based on exploratory statistics
