@@ -84,21 +84,28 @@ Let's take for example phylome 960:
 
 ### All trees
 
-![multrees](data/img/multree.png)
+<div align="center">
+<img src="data/img/multree.png" width=75% height=75%>
+</div>
 
 ### Species tree
 
-![consensus](data/img/consensus.png)
+<div align="center">
+<img src="data/img/consensus.png" width=75% height=75%>
+</div>
 
 
 ### Densitree
 
-![densitree](data/img/densitree.png)
+<div align="center">
+<img src="data/img/densitree.png" width=75% height=75%>
+</div>
 
 ### RF matrix
 
-![rf](data/img/rf.png)
-
+<div align="center">
+<img src="data/img/rf.png" width=30% height=30%>
+</div>
 
 ### Occupancy matrix
 
@@ -109,10 +116,8 @@ Let's take for example phylome 960:
 These are the runtimes for some test phylomes:
 
 <div align="center">
-
 <img src="data/img/runtimes.png" width=50% height=50%>
-
-<\div>
+</div>
 
 
 ### Notes
