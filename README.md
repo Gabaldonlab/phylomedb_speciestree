@@ -108,9 +108,9 @@ Let's take for example phylome 960:
 
 These are the runtimes for some test phylomes:
 
-<p align="center">
+<div align="center">
 <img src="data/img/runtimes.png" width=50% height=50%>
-<\p>
+<\div>
 
 
 ### Notes
