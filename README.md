@@ -46,7 +46,9 @@ Possible additions:
 
 ## Usage
 
-![smk_pipeline](data/dags/sptree_reconstruction.png)
+<div align="center">
+<img src="data/dags/sptree_reconstruction.png" width=50% height=50%>
+</div>
 
 The pipeline takes the data previously downloaded, parse them and apply 8 different summary species tree reconstruction methods: see [methods](data/info/methods.csv)
 
