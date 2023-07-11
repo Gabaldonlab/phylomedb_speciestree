@@ -10,3 +10,6 @@ scripts/Quintet-Rooting/
 .Rproj.user/
 *.Rproj
 data/sptrees
+scripts/get_results.R
+scripts/get_examples.sh
+data/ids/maybe

@@ -21,7 +21,8 @@ You can see phylome ids, seed species and description in this file:  [PhylomeDB.
 These are the errors found in PhylomeDB:
 
 * Corrupted FTP files, if there are less alignments than trees exit. This may be very severe and if we check for the single copy genes that also have alignments we could go ahead. However, the alignments should be somewhere as we have the tree so it could be solved at the root one day.
-* Single copy gene trees do not have all the species therefore the single copy methods will have less species than the others and no consensus tree can be computerd. 
+* Single copy gene trees do not have all the species therefore the single copy methods will have less species than the others and no consensus tree can be computerd.
+
 
 ## Methods
 
@@ -72,10 +73,36 @@ conda activate snakemake
 ulimit -s 2000000
 snakemake -s pipelines/sptree_reconstruction.smk --unlock
 snakemake -p -s pipelines/sptree_reconstruction.smk --cores 48 --printshellcmds --rerun-incomplete --keep-going
+Rscripts scripts/get_results.R
 ```
 
 ## Outputs
 
+*note to self:* Run ./scripts/get_examples.sh to regenerate these plots when something changes.
+
+Let's take for example phylome 960:
+
+### All trees
+
+![multrees](data/img/multree.png)
+
+### Species tree
+
+![consensus](data/img/consensus.png)
+
+
+### Densitree
+
+![densitree](data/img/densitree.png)
+
+### RF matrix
+
+![rf](data/img/rf.png)
+
+
+### Occupancy matrix
+
+![contree](data/img/occupancy.png)
 
 ## Runtimes
 
@@ -84,9 +111,20 @@ These are the runtimes for some test phylomes:
 ![smk_runtimes](data/img/runtimes.png)
 
 
+### Notes
+
+if error cran repo 
+```
+options(repos = c(CRAN = "http://cran.rstudio.com"))
+```
+if weird error pthreads  
+```
+export OMP_NUM_THREADS=1
+export USE_SIMPLE_THREADED_LEVEL3=1
+```
+
 ### TODO
 
-* fix compare sptree for few species (eg 441)
 * Check if other reason aln tar or tree file could be weird!
 * option to root with species2age
 * plot and filter gene trees based on exploratory statistics

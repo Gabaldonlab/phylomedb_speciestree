@@ -12,8 +12,8 @@ option_list = list(
                 help="if active only presence/absence plot", dest = "absence"),
     # make_option(c("-t", "--tax"), type = "logical", default=FALSE, action = "store_true",
     #             help="if active clustering will be based on taxonomy", dest = "tax"),
-    make_option(c("-p", "--pca"), type = "logical", default=FALSE, action = "store_true",
-                help="if active also plot pca", dest = "pca"),
+    # make_option(c("-p", "--pca"), type = "logical", default=FALSE, action = "store_true",
+    #             help="if active also plot pca", dest = "pca"),
     make_option(c("--subsample"), type = "integer", default=0,
                 help="sample x random trees", dest = "ntrees"),
     make_option(c("-m", "--max_missing"), type="integer", default=0.7,
@@ -36,23 +36,14 @@ suppressPackageStartupMessages(library(dplyr))
 col_palette <- c("#E69F00","#56B4E9","#009E73","#F0E442","#0072B2",
                           "#D55E00","#CC79A7","#999999","#000000")
 
-
 opt_parser = OptionParser(option_list=option_list)
 opt = parse_args(opt_parser)
-
-# opt <- NULL
-# opt$gene_trees <- "output/data/all_trees/best_trees_0010.nwk"
-# opt$ntrees <- 100
-# opt$maxmiss <- .7
-# opt$meta <- "output/data/info/info_0003.tsv"
-# opt$outfile <- "output/plots/phy_0010_all_presence.png"
-# opt$meta <- "output/data/info/info_0010.tsv"
-# opt$sptree <- "output/results/phylome_0010/phylome_0010_rooted_sptree.nwk"
 
 names_info <- c("taxid", "mnemo", "date", "longest", "source", "sp_og",
                 "k","p","c","o","f","g","s")
 
-info <- read.delim(opt$meta, col.names = names_info, header = F)
+info <- read.delim(opt$meta, col.names = names_info, header = F) %>% 
+  mutate(sp_og=gsub("\\]", "", gsub("\\[", "", sp_og)), label = sub("^([A-Za-z])[A-Za-z]+\\s+([A-Za-z]+)", "\\1. \\2", sp_og))
 info$mnemo <- gsub("\\..*", "", info$mnemo)
 
 # read gene_trees
@@ -127,8 +118,8 @@ if (is.na(opt$sptree)) {
 
 grp <- info[match(colnames(matrix_presence), info$mnemo), grp_col]
 
-width = log10(dim(matrix_presence)[1])*9
-height = dim(matrix_presence)[2]/1.75
+width = log10(dim(matrix_presence)[1])*3.5
+height = dim(matrix_presence)[2]/3.8
 
 # genes_cluster = dendextend::color_branches(genes_cluster, k = 5)
 fh = function(x) fastcluster::hclust(dist(x, method = "man"))
@@ -137,8 +128,7 @@ fh = function(x) fastcluster::hclust(dist(x, method = "man"))
 outmat <- opt$outfile
 pass <- rowSums(matrix_presence == 1) > min_sp & rowSums(matrix_presence > 1) == 0
 
-png(outmat, width = width, height = height,
-    units = "cm", res = 300)
+pdf(outmat, width = width, height = height)
 
 ha = HeatmapAnnotation(
   pass = pass, col = list(pass=c("TRUE"="black", "FALSE"="white")),
@@ -176,16 +166,15 @@ draw(ht_list, merge_legend = TRUE,  heatmap_legend_side = "bottom", annotation_l
 dev.off()
 
 
-
-if (opt$pca){
-  print("doing pca")
-    pca <- prcomp(t(matrix_presence), center = TRUE)
-    out_pca <- paste0(opt$outfile,"_pca.png")
-    plot_pca <- factoextra::fviz_pca_ind(pca, )
-   ggplot2::ggsave(out_pca, plot_pca, device = "png", width = 7, height = 7, dpi=300)
-} else{
-  print("done")
-}
+# if (opt$pca){
+#   print("doing pca")
+#     pca <- prcomp(t(matrix_presence), center = TRUE)
+#     out_pca <- paste0(opt$outfile,"_pca.png")
+#     plot_pca <- factoextra::fviz_pca_ind(pca, )
+#    ggplot2::ggsave(out_pca, plot_pca, device = "png", width = 7, height = 7, dpi=300)
+# } else{
+#   print("done")
+# }
 
 
 if (!is.na(opt$occupancy)) {
@@ -201,7 +190,7 @@ if (!is.na(opt$occupancy)) {
   
   occupancy <- left_join(df_sp, info) %>% 
     ggplot(aes(occupancy, expanded)) + 
-    geom_point(aes_string(fill=grp_col), pch=21, alpha=0.9, size=2) + 
+    geom_point(aes(fill=.data[[grp_col]]), pch=21, alpha=0.9, size=2) + 
     scale_fill_manual(values = col_palette) + 
     ggrepel::geom_text_repel(aes(label=mnemo), size=2) +
     labs(x="occupancy", y="expanded", fill="clade")

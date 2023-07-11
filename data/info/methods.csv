@@ -1,10 +1,10 @@
-method	multicopy	branch_lengths	branch_support	root	source
-duptree	yes	no	no	yes	https://doi.org/10.1093/bioinformatics/btn230
-astral	no	CU	localPP	no	https://doi.org/10.1186/s12859-018-2129-y
-W-astral	no	CU	localPP	no	https://doi.org/10.1093/molbev/msac215
-Astral-DISCO	yes	CU	localPP	no	https://doi.org/10.1093/sysbio/syab070
-Astral-PRO	yes	CU	localPP	no	https://doi.org/10.1093/bioinformatics/btac620
-SpeciesRax	yes	sub/site	EQPIC score	yes	https://doi.org/10.1093/molbev/msab365
-Fast-Mul-Rfs	yes	?	no	no	https://doi.org/10.1093/bioinformatics/btaa444
-Asteroid	yes	distance	bootstrap from input	no	https://doi.org/10.1093/bioinformatics/btac832
-Concatenation	yes/no	sub/site	bootstrap,gCF,sCF	no	
+name	method	multicopy	branch_lengths	branch_support	root	source
+Duptree	dt	yes	no	no	yes	https://doi.org/10.1093/bioinformatics/btn230
+wASTRAL-unweighted	astral	no	CU	localPP	no	https://doi.org/10.1186/s12859-018-2129-y
+Weighted-ASTRAL	wastral	no	CU	localPP	no	https://doi.org/10.1093/molbev/msac215
+ASTRAL-DISCO	ad	yes	CU	localPP	no	https://doi.org/10.1093/sysbio/syab070
+ASTRAL-PRO	apro	yes	CU	localPP	no	https://doi.org/10.1093/bioinformatics/btac620
+SpeciesRax	sprax	yes	sub/site	EQPIC score	yes	https://doi.org/10.1093/molbev/msab365
+Fast-Mul-Rfs	fmulrfs	yes	?	no	no	https://doi.org/10.1093/bioinformatics/btaa444
+Asteroid	asteroid	yes	distance	bootstrap from input	no	https://doi.org/10.1093/bioinformatics/btac832
+Concatenation	cat	yes/no	sub/site	bootstrap,gCF,sCF	no	

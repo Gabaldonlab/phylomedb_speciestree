@@ -65,8 +65,6 @@ def obtain_duptree_file(treeFile, duptreeFile, midpoint=False, weighted=False):
         File that will be the input of duptree
     """
 
-    print("Creating duptree file")
-
     outfile = open(duptreeFile, "w")
     for line in open(treeFile):
         line = line.strip()
