@@ -38,7 +38,7 @@ parser.add_argument(
 parser.add_argument(
     "-m",
     "--mode",
-    choices=['asteroid', 'apro', 'duptree', 'stride', 'speciesrax', 'generax'],
+    choices=['asteroid', 'apro', 'duptree', 'stride', 'speciesrax', 'generax', 'pgroot'],
     dest="mode",
     action="store",
     default="None",
@@ -321,6 +321,41 @@ def get_generax_data(gene_trees, out_dir, aln_dir, keep_model=True):
                         model = model.replace("JTTDCMut","JTT-DCMut")
                     f.write("subst_model = " + model + "\n")
 
+
+def obtain_pgroot_file(treeFile, outtree):
+    """Prepare files for duptree.
+    Parameters
+    ----------
+    treeFile : str
+        best trees file from PhylomeDB
+    duptreeFile : str
+        File where the tress will be written
+    midpoint: bool
+        Midpoint root gene trees?
+    Returns
+    -------
+    type
+        File that will be the input of duptree
+    """
+
+    outfile = open(outtree, "w")
+    for line in open(treeFile):
+        line = line.strip()
+        t = PhyloTree(line)
+        dict_copies = {}
+        for leaf in t:
+            leaf.name = leaf.name + "_1"
+            # nms = leaf.name.split('_')
+            # if nms[1] not in dict_copies.keys():
+            #     dict_copies[nms[1]] = 1
+            # else:
+            #     dict_copies[nms[1]] += 1
+            # leaf.name = nms[1] + '_' + str(dict_copies[nms[1]])
+        outfile.write(t.write() + "\n")
+
+    outfile.close()
+
+
 if __name__=="__main__":
     if args.mode=="duptree":
         obtain_duptree_file(args.tree, args.out, weighted=True)
@@ -334,3 +369,5 @@ if __name__=="__main__":
         get_speciesrax_data(args.tree, args.out, keep_model=False)
     if args.mode=="generax":
         get_generax_data(args.tree, args.out, args.aln, keep_model=True)
+    if args.mode=="pgroot":
+        obtain_pgroot_file(args.tree, args.out)

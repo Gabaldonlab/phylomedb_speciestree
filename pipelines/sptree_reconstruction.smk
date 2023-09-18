@@ -30,7 +30,28 @@ rule results:
         expand(outdir+"results/phylome_{code}/phylome_{code}_all_presence.pdf", code=phyids),
         # THIS MAY BE USELESS ALTHOUGH VERY COOL! some times out of mem error
         # expand(outdir+"plots/phy_{code}_redundancy.pdf", code=phyids),
-        expand(outdir+"results/phylome_{code}/phylome_{code}_rooted_sptree.nwk", code=phyids)
+        expand(outdir+"results/phylome_{code}/phylome_{code}_rooted_sptree.nwk", code=phyids),
+        expand(outdir+"input/pgroot/phylome_{code}_part_pgroot.csv", code=phyids)
+
+
+# Phylogenomic root
+
+rule get_root:
+    input:
+        d_gt=outdir+"input/ad/phylome_{code}_input_ad.nwk"
+    output:
+        pgroot_gt=outdir+"input/pgroot/phylome_{code}_input_pgroot.nwk",
+        pgroot_ad=outdir+"input/pgroot/phylome_{code}_ad_pgroot.csv",
+        pgroot_part=outdir+"input/pgroot/phylome_{code}_part_pgroot.csv"
+    shell:
+        """
+python scripts/prepare_trees.py -m pgroot -i {input.d_gt} -o {output.pgroot_gt}
+python scripts/PhyloRooting/mad.py -u {output.pgroot_gt}
+awk -F':' '$2!=";"' {output.pgroot_gt}.AD_unrooted > {output.pgroot_gt}.ad
+rm {output.pgroot_gt}.AD_unrooted
+python scripts/PhyloRooting/pgroot.py -t {output.pgroot_gt}.ad -AD {output.pgroot_ad} -p {output.pgroot_part}
+"""
+
 
 # SPECIES TREE
 
